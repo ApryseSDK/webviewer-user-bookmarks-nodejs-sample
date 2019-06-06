@@ -13,8 +13,6 @@
     "@pdftron/webviewer-downloader": "^1.0.7",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "opn": "^5.4.0",
-    "download": "^7.1.0",
-    "fs-extra": "^7.0.1"
+    "opn": "^5.4.0"
   }
 }
