@@ -37,11 +37,11 @@ WebViewer({
 // Make a POST request with XFDF string
 var saveXfdfString = function(documentId, xfdfString) {
   return new Promise(function(resolve) {
-    fetch(`/server/annotationHandler.php?documentId=${documentId}`, {
+    fetch(`/server/annotationHandler.js?documentId=${documentId}`, {
       method: 'POST',
       body: xfdfString
-    }).then(function(res) {
-      if (res.status === 200) {
+    }).then(function(response) {
+      if (response.status === 200) {
         resolve();
       }
     });
@@ -51,11 +51,11 @@ var saveXfdfString = function(documentId, xfdfString) {
 // Make a GET request to get XFDF string
 var loadXfdfString = function(documentId) {
   return new Promise(function(resolve) {
-    fetch(`/server/annotationHandler.php?documentId=${documentId}`, {
+    fetch(`/server/annotationHandler.js?documentId=${documentId}`, {
       method: 'GET'
-    }).then(function(res) {
-      if (res.status === 200) {
-        res.text().then(function(xfdfString) {
+    }).then(function(response) {
+      if (response.status === 200) {
+        response.text().then(function(xfdfString) {
           resolve(xfdfString);
         })
       }
