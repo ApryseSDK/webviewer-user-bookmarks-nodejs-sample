@@ -21,7 +21,7 @@ npm install
 ## Run
 
 ```
-npm start
+npm startssssssss
 ```
 
 ## How to use
