@@ -4,21 +4,21 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const opn = require('opn');
-const annotationHandler = require('./annotationHandler');
+const bookmarksHandler = require('./bookmarksHandler');
 
 const app = express();
 
 app.use(bodyParser.text());
 app.use('/client', express.static('client')); // For statically serving 'client' folder at '/'
 
-annotationHandler(app);
+bookmarksHandler(app);
 
 // Run server
-app.listen(3000, 'localhost', (err) => {
+app.listen(3006, '0.0.0.0', (err) => {
 	if (err) {
 		console.error(err);
 	} else {
-    console.info(`Server is listening at http://localhost:3000/client/index.html`);
-    opn('http://localhost:3000/client/index.html');
+    console.info(`Server is listening at http://localhost:3006/client/index.html`);
+    opn('http://localhost:3006/client/index.html');
 	}
 });
