@@ -6,7 +6,7 @@
 
 This is a WebViewer User Bookmarks sample to show how you can save and load user bookmarks through files with a Node.js backend.
 
-For more information, see this [guide](https://www.pdftron.com/documentation/web/get-started/todo/).
+For more information, see this [guide](https://www.pdftron.com/documentation/web/guides/bookmark/user-bookmarks/).
 
 ## Initial setup
 
