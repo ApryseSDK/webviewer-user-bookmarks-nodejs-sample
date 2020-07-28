@@ -2,9 +2,12 @@
   "action": {
     "apply": "Aplicar",
     "applyAll": "Aplicar todos",
+    "calibrate": "Calibrar",
     "cancel": "Cancelar",
     "clear": "Limpar",
     "close": "Fechar",
+    "undo": "Desfazer",
+    "redo": "pronto",
     "comment": "Novo comentário",
     "copy": "Copiar",
     "delete": "Apagar",
@@ -12,29 +15,46 @@
     "ungroup": "Desagrupar",
     "download": "Download",
     "edit": "Editar",
+    "extract": "Extrair",
     "enterFullscreen": "Tela cheia",
     "exitFullscreen": "Sair da tela cheia",
     "fit": "Ajustar",
     "fitToPage": "Ajustar à página",
     "fitToWidth": "Ajustar à largura",
     "openFile": "Abrir arquivo",
+    "pagePrev": "Página anterior",
+    "pageNext": "Próxima página",
+    "pageSet": "Definir página",
     "print": "Imprimir",
+    "name": "Nome",
     "ok": "OK",
     "reply": "Responder",
     "rotate": "Girar",
     "rotateClockwise": "Sentido horário",
     "rotateCounterClockwise": "Sentido anti-horário",
     "save": "Salvar",
+    "post": "Postar",
     "create": "Criar",
     "showMoreResults": "Mostrar mais resultados",
-    "saveSignature": "Salvar assinatura",
     "sign": "Assinar",
     "style": "Estilo",
     "submit": "Enviar",
     "zoom": "Zoom",
     "zoomIn": "Aproximar",
     "zoomOut": "Afastar",
-    "calibrate": "Calibrar"
+    "zoomSet": "Definir zoom",
+    "zoomControls": "Controles de zoom",
+    "draw": "Desenhar",
+    "type": "Tipo",
+    "upload": "Envio",
+    "link": "Ligação",
+    "darkMode": "Modo escuro",
+    "lightMode": "Modo de luz",
+    "fileAttachmentDownload": "Baixar arquivo anexado",
+    "prevResult": "Resultado anterior",
+    "nextResult": "Próximo resultado",
+    "prev": "Anterior",
+    "next": "Próximo"
   },
   "annotation": {
     "areaMeasurement": "Medição de área",
@@ -43,14 +63,13 @@
     "crop": "Cortar página",
     "caret": "Cursor",
     "distanceMeasurement": "Medição de distância",
+    "countMeasurement": "Medição de contagem",
     "ellipse": "Elipse",
     "eraser": "Apagador",
+    "fileattachment": "Anexo de arquivo",
     "freehand": "Mão livre",
-    "freehand2": "Mão livre",
     "freetext": "Texto livre",
-    "freetext2": "Texto livre",
     "highlight": "Destacar",
-    "highlight2": "Destacar",
     "line": "Linha",
     "perimeterMeasurement": "Medição de perímetro",
     "polygon": "Polígono",
@@ -64,27 +83,55 @@
     "stickyNote": "Comentário",
     "strikeout": "Riscar",
     "underline": "Sublinhar",
-    "custom": "Personalizado"
+    "custom": "Personalizado",
+    "rubberStamp": "Carimbo de borracha"
+  },
+  "rubberStamp": {
+    "Approved": "Aprovado",
+    "AsIs": "Como é",
+    "Completed": "Concluído",
+    "Confidential": "Confidencial",
+    "Departmental": "Departamental",
+    "Draft": "Esboço, projeto",
+    "Experimental": "Experimental",
+    "Expired": "Expirado",
+    "Final": "Final",
+    "ForComment": "Para Comentário",
+    "ForPublicRelease": "Para divulgação pública",
+    "InformationOnly": "Apenas informação",
+    "NotApproved": "Não aprovado",
+    "NotForPublicRelease": "Não para divulgação pública",
+    "PreliminaryResults": "Resultados preliminares",
+    "Sold": "Vendido",
+    "TopSecret": "Ultra secreto",
+    "Void": "Vazio",
+    "SHSignHere": "Assine aqui",
+    "SHWitness": "Testemunha",
+    "SHInitialHere": "Inicial aqui",
+    "SHAccepted": "Aceitaram",
+    "SBRejected": "Rejeitado"
   },
   "component": {
-    "freehandToolsButton": "Ferramentas mão livre",
     "leftPanel": "Painel",
+    "toolsHeader": "Ferramentas",
     "searchOverlay": "Procurar",
+    "searchPanel": "Procurar",
     "menuOverlay": "Menu",
-    "miscToolsButton": "Ferramentas diversas",
     "notesPanel": "Anotações",
     "outlinesPanel": "Esquemas",
+    "bookmarksPanel": "Favoritos",
+    "newBookmark": "Novo marcador",
+    "bookmarkPage": "Página",
     "layersPanel": "Camadas",
-    "shapeToolsButton": "Ferramentas de forma",
-    "textToolsButton": "Ferramentas de texto",
     "thumbnailsPanel": "Miniaturas",
     "toolsButton": "Ferramentas",
     "redaction": "Supressão",
     "viewControlsOverlay": "Controles de visualização",
-    "measurementToolsButton": "Ferramentas de medição",
-    "calibration": "Calibração"
+    "calibration": "Calibração",
+    "createStampButton": "Criar novo carimbo"
   },
   "message": {
+    "toolsOverlayNoPresets": "Sem predefinições",
     "badDocument": "Falha ao carregar documento. O documento está corrompido ou não é válido.",
     "customPrintPlaceholder": "p. ex. 3, 4-10",
     "encryptedAttemptsExceeded": "Falha ao carregar documento criptografado. Tentativas demais.",
@@ -94,6 +141,7 @@
     "noAnnotations": "Esse documento não tem anotações.",
     "noOutlines": "Esse documento não tem esquema.",
     "noResults": "Nenhum resultado encontrado.",
+    "numResultsFound": "resultados encontrados",
     "notSupported": "Esse tipo de arquivo não é compatível.",
     "passwordRequired": "Senha obrigatória",
     "preparingToPrint": "Preparando impressão...",
@@ -103,12 +151,27 @@
     "printTotalPageCount_plural": "{{count}} páginas",
     "processing": "Processando...",
     "searching": "Procurando...",
-    "searchPlaceholder": "Buscar comentários...",
+    "searchCommentsPlaceholder": "Pesquisar comentários",
+    "searchDocumentPlaceholder": "Pesquisar documento",
     "signHere": "Assine aqui",
     "insertTextHere": "Insira texto aqui",
-    "enterMeasurement": "Digite a medição entre os dois pontos"
+    "imageSignatureAcceptedFileTypes": "Somente {{acceptFileTypes}} são aceitos",
+    "enterMeasurement": "Digite a medição entre os dois pontos",
+    "linkURLorPage": "URL do link ou uma página"
   },
   "option": {
+    "notesOrder": {
+      "position": "Posição",
+      "time": "Tempo"
+    },
+    "toolbarGroup": {
+      "toolbarGroup-View": "Visão",
+      "toolbarGroup-Annotate": "Anotar",
+      "toolbarGroup-Shapes": "Formas",
+      "toolbarGroup-Insert": "Inserir",
+      "toolbarGroup-Measure": "A medida",
+      "toolbarGroup-Edit": "Editar"
+    },
     "annotationColor": {
       "StrokeColor": "Cor da borda",
       "FillColor": "Cor de preenchimento",
@@ -118,14 +181,15 @@
       "layout": "Layout",
       "pageTransition": "Transição de página"
     },
+    "documentControls": {
+      "placeholder": "Insira as páginas para selecionar, ou seja, 2, 5-9"
+    },
     "layout": {
       "cover": "Capa",
       "double": "Duplo",
       "single": "Único"
     },
     "notesPanel": {
-      "orderPosition": "Posição",
-      "orderTime": "Hora",
       "separator": {
         "today": "Hoje",
         "yesterday": "Ontem"
@@ -139,20 +203,29 @@
       "all": "Todas",
       "current": "Atual",
       "pages": "Páginas",
+      "includeAnnotations": "Incluir anotações",
       "includeComments": "Incluir comentários",
       "addWatermarkSettings": "Adicionar configurações de marca d'água"
     },
     "redaction": {
-      "markForRedaction": "Marcar para supressão",
-      "warningPopupMessage": "Todos os itens selecionados para supressão serão permanentemente removidos. Isso não pode ser desfeito.",
-      "warningPopupTitle": "Aplicar supressão"
+      "markForRedaction": "Marcar para supressão"
     },
     "searchPanel": {
       "caseSensitive": "Diferenciar maiúsculas e minúsculas",
-      "wholeWordOnly": "Palavra inteira"
+      "wholeWordOnly": "Palavra inteira",
+      "wildcard": "Curinga"
+    },
+    "stampOverlay": {
+      "addStamp": "Adicionar novo carimbo"
     },
     "signatureOverlay": {
       "addSignature": "Adicionar assinatura"
+    },
+    "signatureModal": {
+      "saveSignature": "Salvar assinatura",
+      "dragAndDrop": "Arraste e solte sua imagem aqui",
+      "or": "Ou",
+      "pickImage": "Escolher imagem da assinatura"
     },
     "status": {
       "status": "Status"
@@ -174,10 +247,18 @@
       "area": "Área",
       "distanceMeasurement": "Medição de distância",
       "perimeterMeasurement": "Medição de perímetro",
-      "areaMeasurement": "Medição de área"
+      "areaMeasurement": "Medição de área",
+      "countMeasurement": "Medição de contagem",
+      "radius": "Raio",
+      "count": "Contagem"
     },
     "measurementOption": {
       "scale": "Escala"
+    },
+    "styleOption": {
+      "style": "Estilo",
+      "solid": "Sólido",
+      "cloudy": "Nublado"
     },
     "slider": {
       "opacity": "Opacidade",
@@ -186,14 +267,47 @@
     },
     "shared": {
       "page": "Página",
-      "precision": "Precisão"
+      "precision": "Precisão",
+      "enableSnapping": "Ativar encaixe para ferramentas de medição"
     },
     "watermark": {
       "size": "Tamanho",
       "location": "Escolha um local para editar marcas d'água",
       "text": "Texto",
-      "colors": "Cores",
-      "resetAllSettings": "Redefinir todas as configurações"
+      "style": "Estilo",
+      "resetAllSettings": "Redefinir todas as configurações",
+      "font": "fonte"
+    },
+    "thumbnailPanel": {
+      "delete": "Excluir",
+      "rotateClockwise": "Sentido horário",
+      "rotateCounterClockwise": "Sentido anti-horário",
+      "extractZeroPageError": "Nenhuma página foi selecionada para extrair"
+    },
+    "richText": {
+      "bold": "Negrito",
+      "italic": "itálico",
+      "underline": "Sublinhar",
+      "strikeout": "Tachado"
+    },
+    "customStampModal": {
+      "stampText": "Texto do carimbo:",
+      "timestampText": "Texto do carimbo de data / hora:",
+      "stampColor": "Cor do carimbo:",
+      "Username": "Nome do usuário",
+      "Date": "Encontro",
+      "Time": "Tempo"
+    }
+  },
+  "warning": {
+    "deletePage": {
+      "deleteTitle": "Excluir página",
+      "deleteMessage": "Tem certeza de que deseja excluir as páginas selecionadas. Isso não pode ser desfeito",
+      "deleteLastPageMessage": "Isso resultaria em nenhuma página restante. Deixe pelo menos uma página"
+    },
+    "redaction": {
+      "applyTile": "Aplicar redação",
+      "applyMessage": "Esta ação removerá permanentemente todos os itens selecionados para edição. Não pode ser desfeito."
     }
   },
   "shortcut": {
@@ -215,15 +329,68 @@
     "signature": "(S)",
     "squiggly": "(G)",
     "stamp": "(I)",
+    "redo": "(Ctrl Shift Z)",
+    "undo": "(Ctrl Z)",
     "stickyNote": "(N)",
     "strikeout": "(K)",
     "underline": "(U)",
     "zoomIn": "(Ctrl +)",
-    "zoomOut": "(Ctrl -)"
+    "zoomOut": "(Ctrl -)",
+    "richText": {
+      "bold": "(Ctrl B)",
+      "italic": "(Ctrl I)",
+      "underline": "(Ctrl L)",
+      "strikeout": "(Ctrl K)"
+    }
   },
   "tool": {
-    "pan": "Pan",
+    "pan": "Arrastar",
     "select": "Selecionar",
-    "Marquee": "Zoom Marquee"
+    "Marquee": "Marcar área",
+    "Link": "URL ou página do link",
+    "Standard": "Padrão",
+    "Custom": "personalizadas"
+  },
+  "link": {
+    "url": "URL",
+    "page": "Página",
+    "enterurl": "Digite o URL para o qual você deseja vincular",
+    "enterpage": "Selecione o número da página que você deseja vincular"
+  },
+  "datePicker": {
+    "previousMonth": "Mês anterior",
+    "nextMonth": "Próximo mês",
+    "months": {
+      "0": "Janeiro",
+      "1": "Fevereiro",
+      "2": "Março",
+      "3": "Abril",
+      "4": "Maio",
+      "5": "Junho",
+      "6": "Julho",
+      "7": "Agosto",
+      "8": "Setembro",
+      "9": "Outubro",
+      "10": "Novembro",
+      "11": "Dezembro"
+    },
+    "weekdays": {
+      "0": "Domingo",
+      "1": "Segunda-feira",
+      "2": "Terça-feira",
+      "3": "Quarta-feira",
+      "4": "Quinta-feira",
+      "5": "Sexta-feira",
+      "6": "Sábado"
+    },
+    "weekdaysShort": {
+      "0": "Dom",
+      "1": "Seg",
+      "2": "Ter",
+      "3": "Qua",
+      "4": "Qui",
+      "5": "Sex",
+      "6": "Sáb"
+    }
   }
 }
