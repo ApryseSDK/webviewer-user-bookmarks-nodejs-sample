@@ -7,7 +7,7 @@ WebViewer({
 }, viewerElement).then(instance => {
   instance.enableElements(['bookmarksPanel', 'bookmarksPanelButton']);
 
-  instance.iframeWindow.addEventListener('userBookmarksChanged', e => {
+  instance.addEventListener('userBookmarksChanged', e => {
     const bookmarks = e.detail;
     const bookmarksString = JSON.stringify(bookmarks);
     saveBookmarksString(DOCUMENT_ID, bookmarksString).then(function() {
@@ -41,7 +41,7 @@ WebViewer({
 
 
 // Make a POST request with bookmarks string
-var saveBookmarksString = function(documentId, bookmarksString) {
+const saveBookmarksString = function(documentId, bookmarksString) {
   return new Promise(function(resolve) {
     fetch(`/server/bookmarksHandler.js?documentId=${documentId}`, {
       method: 'POST',
@@ -55,7 +55,7 @@ var saveBookmarksString = function(documentId, bookmarksString) {
 };
 
 // Make a GET request to get bookmarks string
-var loadBookmarksString = function(documentId) {
+const loadBookmarksString = function(documentId) {
   return new Promise(function(resolve) {
     fetch(`/server/bookmarksHandler.js?documentId=${documentId}`, {
       method: 'GET'
