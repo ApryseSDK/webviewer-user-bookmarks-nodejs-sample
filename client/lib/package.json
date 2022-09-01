@@ -1,7 +1,7 @@
 {
   "name": "webviewer",
   "description": "PDFTron WebViewer",
-  "version": "7.0.0",
+  "version": "8.8.0",
   "main": "webviewer.min.js",
   "author": "PDFTron Systems Inc.",
   "build": "MTU3NTkzMDE2ODA2OC02LjAuMC1iZXRhLTM=",
