@@ -14,11 +14,11 @@ app.use('/client', express.static('client')); // For statically serving 'client'
 bookmarksHandler(app);
 
 // Run server
-app.listen(3006, '0.0.0.0', (err) => {
+app.listen(3000, '0.0.0.0', (err) => {
 	if (err) {
 		console.error(err);
 	} else {
-    console.info(`Server is listening at http://localhost:3006/client/index.html`);
-    opn('http://localhost:3006/client/index.html');
+		console.info(`Server is listening at http://localhost:3000/client/index.html`);
+		opn('http://localhost:3000/client/index.html');
 	}
 });

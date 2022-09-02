@@ -28,10 +28,11 @@ npm start
 
 ## How to use
 
-- Create bookmarks using the `New Bookmark` button in the bookmarks tab in the left panel
-- Edit bookmark names with the pencil icon on each bookmark.
-- Delete bookmarks using the `x` icon on each bookmark
-- Bookmarks are automatically saved using the 'userBookmarksChanged' event.
+- Create bookmarks using the `Add Bookmark` button in the bookmarks tab in the left panel
+- Edit bookmark names by choosing the option in the context menu popup or by double-clicking on the name
+- Delete bookmarks using the option in the context menu popup
+- The new multi-select mode also allows for deleting multiple bookmarks at the same time
+- Bookmarks are automatically saved using the 'userBookmarksChanged' event
 
 ## Contributing
 
