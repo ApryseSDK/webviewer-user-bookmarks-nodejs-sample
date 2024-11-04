@@ -1,11 +1,14 @@
 {
   "action": {
+    "addParagraph": "Bekezdés hozzáadása",
     "add": "Hozzáadás",
     "apply": "Alkalmaz",
     "applyAll": "Alkalmazza az összeset",
     "calendar": "Naptár",
     "calibrate": "Kalibrálni",
     "cancel": "Megszünteti",
+    "confirm": "megerősít",
+    "currentPageIs": "Az aktuális oldal",
     "clear": "Egyértelmű",
     "clearAll": "Mindent kitöröl",
     "close": "Bezárás",
@@ -14,12 +17,19 @@
     "comment": "Megjegyzés",
     "reply": "Válasz hozzáadása",
     "copy": "Másolat",
+    "cut": "Vágott",
+    "paste": "Paszta",
+    "pasteWithoutFormatting": "Beillesztés formázás nélkül",
     "delete": "Töröl",
+    "deleted": "Törölve",
     "group": "Csoport",
     "ungroup": "Csoportbontás feloldása",
     "download": "Letöltés",
     "edit": "Szerkesztés",
+    "collapse": "Összeomlás",
+    "expand": "Bontsa ki",
     "extract": "Kivonat",
+    "extractPage": "Oldal kibontása",
     "enterFullscreen": "Teljes képernyő",
     "exitFullscreen": "Kilépés a teljes képernyőről",
     "fit": "Elfér",
@@ -27,6 +37,8 @@
     "fitToWidth": "A szélességhez illeszkedik",
     "more": "Több",
     "openFile": "Fájl megnyitása",
+    "page": "oldal",
+    "of": "a",
     "pagePrev": "Előző oldal",
     "pageNext": "Következő oldal",
     "pageSet": "Oldal beállítása",
@@ -34,14 +46,22 @@
     "proceed": "Folytassa",
     "name": "Név",
     "rename": "Átnevezés",
+    "remove": "Távolítsa el",
     "ok": "rendben",
     "rotate": "Oldaltájolás",
     "rotate3D": "Forog",
     "rotateClockwise": "Forgatás az óramutató járásával megegyező irányba",
     "rotateCounterClockwise": "Forgatás az óramutató járásával ellentétes irányba",
+    "rotatedClockwise": "az óramutató járásával megegyező irányba forgatva",
+    "rotatedCounterClockwise": "az óramutató járásával ellentétes irányba forgatva",
+    "rotationIs": "az aktuális oldalforgatás",
+    "movedToBottomOfDocument": "áthelyezve a dokumentum aljára",
+    "movedToTopofDocument": "áthelyezve a dokumentum tetejére",
+    "extracted": "kivont",
     "save": "Megment",
     "post": "Hozzászólás",
     "create": "Teremt",
+    "update": "Frissítés",
     "showMoreResults": "További találatok megjelenítése",
     "sign": "Jel",
     "style": "Stílus",
@@ -50,13 +70,13 @@
     "zoomIn": "Ráközelíteni",
     "zoomOut": "Kicsinyítés",
     "zoomSet": "Állítsa be a nagyítást",
+    "zoomChanged": "A jelenlegi nagyítás",
     "zoomControls": "Zoom Controls",
     "draw": "Húz",
     "type": "típus",
     "upload": "Feltöltés",
     "link": "Link",
-    "darkMode": "Sötét mód",
-    "lightMode": "Fény mód",
+    "unlink": "Hivatkozás törlése",
     "fileAttachmentDownload": "Töltse le a csatolt fájlt",
     "prevResult": "Előző eredmény",
     "nextResult": "Következő eredmény",
@@ -67,23 +87,37 @@
     "exit": "Kijárat",
     "addOption": "Opció hozzáadása",
     "formFieldEdit": "Űrlapmező szerkesztése",
+    "formFieldEditMode": "Űrlapmezők szerkesztése",
+    "contentEditMode": "Tartalom szerkesztése",
     "viewShortCutKeysFor3D": "Gyorsbillentyűk megtekintése",
     "markAllRead": "összes megjelölése olvasottként",
+    "pageInsertion": "Oldal beillesztése",
     "insertPage": "Oldal beillesztése",
-    "insertBlankPageAbove": "Szúrjon be egy üres oldalt fent",
-    "insertBlankPageBelow": "Szúrjon be egy üres oldalt alább",
+    "insert": "Beszúrás",
     "pageManipulation": "Oldal Manipuláció",
     "replace": "Cserélje ki",
+    "replacePage": "Oldal cseréje",
+    "modal": "modális",
+    "isOpen": "nyitva van",
     "setDestination": "Uticél beállítása",
     "showLess": "mutass kevesebbet",
     "showMore": "...több",
     "chooseFile": "Válasszon egy fájlt",
+    "changeDate": "Dátum módosítása",
+    "browse": "Tallózás a fájlok között",
     "selectYourOption": "Válassza ki az opciót",
     "open": "Nyisd ki",
     "deselectAll": "Törölje az Összes kijelölését",
     "select": "Válassza ki",
     "moveToTop": "Ugrás a tetejére",
     "moveToBottom": "Mozgás lefelé",
+    "movePageToTop": "Oldal áthelyezése a tetejére",
+    "movePageToBottom": "Oldal mozgatása lefelé",
+    "moveUp": "Felfelé mozgat",
+    "moveDown": "Lefelé mozgat",
+    "moveLeft": "Mozgás balra",
+    "moveRight": "Mozgás Jobbra",
+    "backToMenu": "Vissza a menübe",
     "redactPages": "Oldalak szerkesztése",
     "playAudio": "Hang lejátszása",
     "pauseAudio": "Hang szüneteltetése",
@@ -91,7 +125,24 @@
     "unselect": "Törölje a kijelölést",
     "addMark": "Jelölés hozzáadása",
     "viewFile": "Fájl megtekintése",
-    "switchLanguage": "Nyelv"
+    "multiReplyAnnotations": "Válasz a kiválasztott megjegyzésekre ({{count}})",
+    "comparePages": "Oldalak összehasonlítása",
+    "startComparison": "Indítsa el az összehasonlítást",
+    "showComparison": "Összehasonlítás megjelenítése",
+    "highlightChanges": "Jelölje ki a Módosítások lehetőséget",
+    "back": "Vissza",
+    "clearSignature": "Világos aláírás",
+    "clearInitial": "Tiszta kezdőbetű",
+    "readOnlySignature": "A csak olvasható aláírás nem törölhető",
+    "newDocument": "Új dokumentum",
+    "sideBySideView": "Oldalnézet",
+    "pageNumberInput": "Oldalszám bevitele",
+    "addNewColor": "Új szín hozzáadása",
+    "deleteColor": "A kiválasztott szín törlése",
+    "copySelectedColor": "Másolja a kiválasztott színt",
+    "showMoreColors": "További színek megjelenítése",
+    "showLessColors": "Kevesebb szín megjelenítése",
+    "fromCustomColorPicker": "Egyedi színválasztóból"
   },
   "annotation": {
     "areaMeasurement": "Terület",
@@ -105,6 +156,8 @@
     "formFillCheckmark": "Ketyegés",
     "formFillCross": "Kereszt",
     "distanceMeasurement": "Távolság",
+    "rectangularAreaMeasurement": "Téglalap alakú terület",
+    "ellipseMeasurement": "Ellipszis terület",
     "countMeasurement": "Gróf mérés",
     "ellipse": "Ellipszis",
     "eraser": "Radír",
@@ -112,6 +165,8 @@
     "freehand": "Szabad kéz",
     "freeHandHighlight": "Szabadkézi kiemelés",
     "freetext": "Szabad szöveg",
+    "markInsertText": "Szöveg beszúrása",
+    "markReplaceText": "Szöveg cseréje",
     "highlight": "Kiemel",
     "image": "Kép",
     "line": "Vonal",
@@ -123,6 +178,7 @@
     "redact": "Szerkeszt",
     "formFillDot": "Pont",
     "signature": "Aláírás",
+    "snipping": "Vágóeszköz",
     "squiggly": "kacskaringós",
     "stamp": "Bélyeg",
     "stickyNote": "jegyzet",
@@ -141,7 +197,9 @@
     "other": "Egyéb",
     "3D": "3D",
     "sound": "Hang",
-    "changeView": "Válts nézőpontot"
+    "changeView": "Válts nézőpontot",
+    "newImage": "Új kép",
+    "defaultCustomStampTitle": "Egyedi bélyegző"
   },
   "rubberStamp": {
     "Approved": "Jóváhagyott",
@@ -176,6 +234,7 @@
     "searchPanel": "Keresés",
     "menuOverlay": "Menü",
     "notesPanel": "Hozzászólások",
+    "indexPanel": "Index panel",
     "outlinePanel": "Vázlat",
     "outlinesPanel": "Körvonalak",
     "newOutlineTitle": "Új vázlatcím",
@@ -190,18 +249,30 @@
     "thumbnailsPanel": "Miniatűrök",
     "toolsButton": "Eszközök",
     "redaction": "Szerkesztés",
-    "viewControlsOverlay": "Vezérlők megtekintése",
+    "viewControls": "Vezérlők megtekintése",
+    "pageControls": "Oldalvezérlők",
     "calibration": "Kalibráció",
     "zoomOverlay": "Zoom Overlay",
     "textPopup": "Szöveg felugró ablak",
     "createStampButton": "Új bélyegző létrehozása",
     "filter": "Szűrő",
+    "multiSelectButton": "Többszörös választás",
     "pageReplaceModalTitle": "Oldal cseréje",
     "files": "Fájlok",
+    "file": "Fájl",
     "editText": "Szöveg szerkesztése",
-    "redactionPanel": "Szerkesztési panel"
+    "redactionPanel": "Szerkesztési panel",
+    "tabLabel": "Tab",
+    "noteGroupSection": {
+      "open": "Az összes megjegyzés megtekintése",
+      "close": "Zárja be az összes megjegyzést"
+    },
+    "comparePanel": "Panel összehasonlítása",
+    "watermarkPanel": "Vízjel panel"
   },
   "message": {
+    "showMore": "Mutass többet",
+    "showLess": "Mutass kevesebbet",
     "toolsOverlayNoPresets": "Nincs előbeállítás",
     "badDocument": "Nem sikerült betölteni a dokumentumot. A dokumentum vagy sérült, vagy érvénytelen.",
     "customPrintPlaceholder": "például. 3, 4-10",
@@ -217,6 +288,7 @@
     "noAttachments": "Ennek a dokumentumnak nincsenek mellékletei.",
     "noResults": "Nincs találat.",
     "numResultsFound": "eredményeket találtunk",
+    "loadError": "Hiba a dokumentum betöltésekor",
     "notSupported": "Ez a fájltípus nem támogatott.",
     "passwordRequired": "jelszó szükséges",
     "enterPasswordPlaceholder": "Írd be a jelszót",
@@ -229,23 +301,28 @@
     "searching": "Keresés...",
     "searchCommentsPlaceholder": "Keresés a megjegyzésekben",
     "searchDocumentPlaceholder": "Dokumentum keresése",
+    "searchSettingsPlaceholder": "Keresési beállítások",
+    "searchSuggestionsPlaceholder": "Keresési javaslatok",
     "signHere": "Itt írd alá",
     "insertTextHere": "Szöveg beszúrása ide",
     "imageSignatureAcceptedFileTypes": "Csak az {{acceptedFileTypes}} fogadható el",
+    "signatureRequired": "A folytatáshoz aláírás és kezdőbetű szükséges",
     "enterMeasurement": "Adja meg a két pont közötti mérést",
     "errorEnterMeasurement": "A megadott szám érvénytelen, olyan értékeket adhat meg, mint 7,5 vagy 7 1/2",
     "linkURLorPage": "Link URL vagy oldal",
     "warning": "Figyelem",
-    "enterContentEditingMode": "A tartalomszerkesztő módba lép.",
-    "existingAnnotationWarning": "Előfordulhat, hogy a meglévő megjegyzések nem egyeznek a szöveggel a szerkesztés után.",
-    "changesCannotBeUndone": "A végrehajtott változtatások nem vonhatók vissza.",
+    "svgMalicious": "Az SVG-szkriptet a biztonság érdekében figyelmen kívül hagyták",
     "doNotShowAgain": "Ne mutasd ezt még egyszer",
+    "doNotAskAgain": "Ne kérdezd meg többször",
     "enterReplacementText": "Írja be a cserélni kívánt szöveget",
+    "sort": "Fajta",
     "sortBy": "Fajta",
     "emptyCustomStampInput": "A bélyegző szövege nem lehet üres",
     "unpostedComment": "Nem közzétett megjegyzés",
     "lockedLayer": "A réteg zárolva van",
     "layerVisibililtyNoChange": "A réteg láthatósága nem módosítható",
+    "noLayers": "Ennek a dokumentumnak nincsenek rétegei.",
+    "noSignatureFields": "Ez a dokumentum nem tartalmaz aláírási mezőket.",
     "untitled": "Névtelen",
     "selectHowToLoadFile": "Válassza ki a dokumentum betöltésének módját",
     "openFileByUrl": "Fájl megnyitása URL alapján:",
@@ -254,9 +331,13 @@
     "selectFile": "Válaszd ki a fájlt",
     "selectPageToReplace": "Válassza ki a dokumentum azon oldalait, amelyekre le szeretné cserélni.",
     "embeddedFiles": "Beágyazott fájlok",
-    "pageNum": "Oldalszám",
+    "pageNum": "oldal",
     "viewBookmark": "Könyvjelző megtekintése az oldalon",
-    "error": "Hiba"
+    "error": "Hiba",
+    "errorPageNumber": "Érvénytelen oldalszám. A határ az",
+    "errorBlankPageNumber": "Kérjük, adjon meg egy oldalszámot",
+    "errorLoadingDocument": "Hiba történt a dokumentum olvasása közben, és előfordulhat, hogy egyes oldalak nem jelennek meg. Ez azt jelzi, hogy a dokumentum sérült. A teljes oldalszám {{totalPageCount}}, a megjelenített oldalak száma pedig {{displayedPageCount}}.",
+    "noRevisions": "Ennek a dokumentumnak nincs revíziója."
   },
   "option": {
     "type": {
@@ -280,7 +361,9 @@
       "underline": "Aláhúzás",
       "squiggly": "kacskaringós",
       "3D": "3D",
-      "other": "Egyéb"
+      "other": "Egyéb",
+      "initials": "Monogram",
+      "saved": "Mentett"
     },
     "notesOrder": {
       "dropdownLabel": "Rendezési lista",
@@ -295,15 +378,20 @@
     },
     "toolbarGroup": {
       "dropdownLabel": "Eszköztár csoportok",
+      "flyoutLabel": "Szalag",
       "toolbarGroup-View": "Kilátás",
       "toolbarGroup-Annotate": "Jegyzetek",
       "toolbarGroup-Shapes": "Alakzatok",
       "toolbarGroup-Insert": "Beszúrás",
       "toolbarGroup-Measure": "Intézkedés",
       "toolbarGroup-Edit": "Szerkesztés",
+      "toolbarGroup-EditText": "Szöveg szerkesztése",
       "toolbarGroup-FillAndSign": "Töltse ki és írja alá",
       "toolbarGroup-Forms": "Űrlapok",
-      "toolbarGroup-Redact": "Szerkeszt"
+      "toolbarGroup-Redact": "Szerkeszt",
+      "toolbarGroup-oe-Home": "itthon",
+      "toolbarGroup-oe-Insert": "Beszúrás",
+      "toolbarGroup-oe-Review": "Felülvizsgálat"
     },
     "annotationColor": {
       "StrokeColor": "Stroke",
@@ -313,12 +401,15 @@
     "colorPalette": {
       "colorLabel": "Szín"
     },
+    "colorPalettePicker": {
+      "addColor": "Új szín hozzáadása",
+      "selectColor": "Válasszon színt"
+    },
     "displayMode": {
       "layout": "Oldal elrendezés",
       "pageTransition": "Oldalátmenet"
     },
     "documentControls": {
-      "placeholder": "1, 3, 5-10",
       "selectTooltip": "Válasszon több oldalt",
       "closeTooltip": "Több kijelölés bezárása"
     },
@@ -342,7 +433,8 @@
       "noteContent": {
         "noName": "(névtelen)",
         "noDate": "(nincs dátum)"
-      }
+      },
+      "toggleMultiSelect": "Többszörös kijelölés váltása a megjegyzésekhez"
     },
     "pageTransition": {
       "continuous": "Folyamatos oldal",
@@ -360,7 +452,9 @@
       "qualityHigh": "Magas",
       "includeAnnotations": "Adjon meg megjegyzéseket",
       "includeComments": "Tartalmazza a megjegyzéseket",
-      "printSettings": "Nyomtatási beállítások"
+      "printSettings": "Nyomtatási beállítások",
+      "printGrayscale": "Nyomtatás Szürkeárnyalatos",
+      "printCurrentDisabled": "Az aktuális nézet csak egyetlen oldal megtekintésekor érhető el."
     },
     "printInfo": {
       "author": "Szerző",
@@ -373,7 +467,15 @@
     "searchPanel": {
       "caseSensitive": "Kis-nagybetű érzékeny",
       "wholeWordOnly": "Egész világ",
-      "wildcard": "Helyettesítő karakter"
+      "wildcard": "Helyettesítő karakter",
+      "replace": "Cserélje ki",
+      "replaceAll": "Cserélje ki az összeset",
+      "replaceText": "Szöveg cseréje",
+      "confirmMessageReplaceAll": "Biztos benne, hogy le akarja cserélni az összes szöveget?",
+      "confirmMessageReplaceOne": "Biztosan le szeretné cserélni ezt a szöveget?",
+      "moreOptions": "Több lehetőség",
+      "lessOptions": "Kevesebb lehetőség",
+      "confirm": "megerősít"
     },
     "toolsOverlay": {
       "currentStamp": "Aktuális bélyegző",
@@ -384,22 +486,38 @@
       "addStamp": "Új bélyegző hozzáadása"
     },
     "signatureOverlay": {
-      "addSignature": "Új aláírás hozzáadása"
+      "addSignature": "Új aláírás hozzáadása",
+      "addSignatureOrInitials": "Aláírás/kezdeményezők"
     },
     "signatureModal": {
       "modalName": "Új aláírás létrehozása",
       "dragAndDrop": "Húzza ide a képet",
       "or": "Vagy",
       "pickImage": "Válasszon egy aláírást",
-      "selectImage": "Válassza ki a képét itt"
+      "selectImage": "Válassza ki a képét itt",
+      "typeSignature": "Írja be az aláírást*",
+      "typeInitial": "Írja be a kezdőbetűket*",
+      "drawSignature": "Aláírás rajzolása*",
+      "drawInitial": "Rajz kezdőbetűi*",
+      "imageSignature": "Képaláírás",
+      "imageInitial": "Kép kezdőbetűi",
+      "pickInitialsFile": "Válassza a Kezdőbetűket",
+      "noSignatures": "Jelenleg nincsenek mentett aláírások.",
+      "fontStyle": "betű stílus",
+      "textSignature": {
+        "dropdownLabel": "Betűcsalád"
+      }
     },
     "pageReplacementModal": {
-      "dragAndDrop": "Drag & Drop ide a fájlt",
-      "or": "Vagy",
+      "yourFiles": "Az Ön Fájljai",
       "chooseFile": "Válasszon egy fájlt",
       "localFile": "Helyi fájl",
       "pageReplaceInputLabel": "Oldal(ok) cseréje",
-      "pageReplaceInputFromSource": "oldalakkal"
+      "pageReplaceInputFromSource": "oldalakkal",
+      "warning": {
+        "title": "Kilép a csereoldalról?",
+        "message": "A kilépés visszavonja az összes eddig végzett kijelölést. Biztos, hogy továbbra is ki akar lépni?"
+      }
     },
     "filterAnnotModal": {
       "color": "Szín",
@@ -407,7 +525,9 @@
       "filters": "Szűrők",
       "user": "Felhasználó",
       "type": "típus",
-      "status": "Állapot"
+      "status": "Állapot",
+      "filterSettings": "Szűrőbeállítások",
+      "filterDocument": "Dokumentum és megjegyzés panel szűrése"
     },
     "state": {
       "accepted": "Elfogadott",
@@ -433,15 +553,68 @@
       "countMeasurement": "Gróf mérés",
       "radius": "Sugár",
       "count": "Számol",
-      "length": "Hossz"
+      "length": "Hossz",
+      "xAxis": "X-tengely",
+      "yAxis": "Y-tengely"
+    },
+    "freeTextOption": {
+      "autoSizeFont": "A betűméret dinamikus skálázása"
     },
     "measurementOption": {
-      "scale": "Skála"
+      "scale": "Skála",
+      "selectScale": "Válassza a Skála lehetőséget",
+      "selectScaleDropdown": "Válassza a Skála legördülő menüt"
+    },
+    "measurement": {
+      "scaleModal": {
+        "calibrate": "Kalibrálni",
+        "custom": "Egyedi",
+        "fractionalUnits": "Törtegységek",
+        "precision": "Pontosság",
+        "preset": "Előre beállított",
+        "paperUnits": "Papíregységek",
+        "displayUnits": "Kijelző egységek",
+        "fractionUnitsTooltip": "A tört mértékegységek csak az in és ft-in értékekre vonatkoznak",
+        "incorrectSyntax": "Helytelen szintaxis",
+        "units": "Egységek"
+      },
+      "scaleOverlay": {
+        "addNewScale": "Új skála hozzáadása",
+        "selectTwoPoints": "Jelöljön ki két ismert méretű pontot a kalibráláshoz",
+        "inputKnowDimension": "Adja meg az ismert méretet és mértékegységeket a kalibráláshoz",
+        "multipleScales": "Több mérleg"
+      },
+      "deleteScaleModal": {
+        "deleteScale": "Skála törlése",
+        "scaleIsOn-delete-info": "Ez a mérleg jelenleg használatban van",
+        "page-delete-info": "oldalon",
+        "appliedTo-delete-info": "és alkalmazták",
+        "measurement": "mérés",
+        "measurements": "mérések",
+        "deletionIs": "A törlés az",
+        "irreversible": "visszafordíthatatlan",
+        "willDeleteMeasurement": "és törli a kapcsolódó méréseket.",
+        "confirmDelete": "Biztosan törli ezt a skálát?",
+        "thisCantBeUndone": " Ezt nem lehet visszavonni.",
+        "ifChangeScale": "Ha módosítja a skálát a kiválasztott méréshez vagy szerszámhoz, skálázza",
+        "notUsedWillDelete": " a továbbiakban semmilyen mérés vagy eszköz nem fogja használni, és törlésre kerül. A törlés visszafordíthatatlan.",
+        "ifToContinue": "Biztos, hogy folytatni szeretnéd?"
+      }
+    },
+    "contentEdit": {
+      "deletionModal": {
+        "title": "Tartalom törlése",
+        "message": "Biztosan törli a kiválasztott tartalmat? Ezt nem lehet visszavonni."
+      },
+      "digitalSign": {
+        "title": "Figyelmeztetés Pecsétes dokumentum",
+        "message": "Ezt a dokumentumot aláírták, és nem módosítható vagy módosítható."
+      }
     },
     "stylePopup": {
       "textStyle": "Szöveg stílusa",
       "colors": "Színek",
-      "invalidFontSize": "A betűméretnek kisebbnek kell lennie, mint",
+      "invalidFontSize": "A betűméretnek a következő tartományban kell lennie",
       "labelText": "Címke szövege",
       "labelTextPlaceholder": "Címkeszöveg hozzáadása"
     },
@@ -483,7 +656,14 @@
     "thumbnailPanel": {
       "delete": "Töröl",
       "rotateClockwise": "Óramutató járásával megegyező",
-      "rotateCounterClockwise": "Óramutató járásával ellentétes irányban"
+      "rotateCounterClockwise": "Óramutató járásával ellentétes irányban",
+      "rotatePageClockwise": "Oldal elforgatása az óramutató járásával megegyező irányba",
+      "rotatePageCounterClockwise": "Oldal elforgatása az óramutató járásával ellentétes irányba",
+      "moreOptions": "Több lehetőség",
+      "moreOptionsMenu": "További miniatűrök opciók menü",
+      "enterPageNumbers": "Írja be az oldalszámokat a kiválasztáshoz",
+      "multiSelectPages": "Oldalak többszörös kijelölése",
+      "multiSelectPagesExample": "például. 1, 3, 5-10"
     },
     "thumbnailsControlOverlay": {
       "move": "Oldalak mozgatása"
@@ -517,7 +697,9 @@
       "minute": "Perc",
       "second": "Második",
       "textColor": "Szöveg szín",
-      "backgroundColor": "Háttérszín"
+      "backgroundColor": "Háttérszín",
+      "dateToolTipLabel": "További információ a dátumformátumról",
+      "previewCustomStamp": "Előnézet a"
     },
     "pageRedactModal": {
       "addMark": "Jelölés hozzáadása",
@@ -525,18 +707,99 @@
       "current": "Aktuális oldal",
       "specify": "Adja meg az oldalakat",
       "odd": "Páratlan oldal csak",
-      "even": "Páros oldalon csak",
-      "header": "Jelölje meg az oldalak szerkesztését",
-      "specifyPlaceholder": "1, 3, 5-10"
+      "even": "Páros oldalon csak"
     },
     "lineStyleOptions": {
       "title": "Stílus"
+    },
+    "settings": {
+      "settings": "Beállítások",
+      "searchSettings": "Keresési beállítások",
+      "general": "Tábornok",
+      "language": "Nyelv",
+      "theme": "Téma",
+      "darkMode": "Sötét mód",
+      "lightMode": "Fény mód",
+      "advancedSetting": "Haladó beállítás",
+      "viewing": "Megtekintés",
+      "disableFadePageNavigationComponent": "Az oldal eltüntetése navigációs összetevőjének letiltása",
+      "disableFadePageNavigationComponentDesc": "Mindig tartsa a képernyőn az oldalnavigációs összetevőt. Az alapértelmezett viselkedés az, hogy bizonyos tétlenség után elhalványul.",
+      "disableNativeScrolling": "A natív görgetés letiltása",
+      "disableNativeScrollingDesc": "A natív mobileszköz görgetési viselkedésének letiltása, ha korábban engedélyezve volt. Vegye figyelembe, hogy a natív mobileszközök görgetési viselkedése alapértelmezés szerint ki van kapcsolva.",
+      "annotations": "Annotációk",
+      "disableToolDefaultStyleUpdateFromAnnotationPopup": "Az eszköz alapértelmezett stílusfrissítésének letiltása a megjegyzés előugró ablakból",
+      "disableToolDefaultStyleUpdateFromAnnotationPopupDesc": "Letiltja a megjegyzésstílus-frissítések szinkronizálását a megjegyzést létrehozó társított eszközzel. Tehát ha egy megjegyzés stílusa megváltozik, az eszköz alapértelmezett stílusai nem frissülnek.",
+      "notesPanel": "Jegyzetek panel",
+      "disableNoteSubmissionWithEnter": "A jegyzetküldés letiltása az Enter billentyűvel",
+      "disableNoteSubmissionWithEnterDesc": "Tiltsa le a jegyzetek küldésének lehetőségét az Enter megnyomásával, ha korábban engedélyezte. Ezzel visszaállítja a jegyzetbeküldést az alapértelmezettre, amely a Ctrl/Cmd + Enter.",
+      "disableAutoExpandCommentThread": "A megjegyzésszál automatikus kibontásának letiltása",
+      "disableAutoExpandCommentThreadDesc": "Letiltja az összes megjegyzésszál automatikus bővítését a Megjegyzések panelen.",
+      "disableReplyCollapse": "A válasz összecsukása letiltása",
+      "disableReplyCollapseDesc": "Letiltja a válaszok összecsukását a Megjegyzések panelen.",
+      "disableTextCollapse": "Szöveg összecsukásának letiltása",
+      "disableTextCollapseDesc": "Letiltja a kommentár szövegének összecsukását a Megjegyzések panelen.",
+      "search": "Keresés",
+      "disableClearSearchOnPanelClose": "Tiltsa le a Keresés törlését a panel bezárásakor",
+      "disableClearSearchOnPanelCloseDesc": "Tiltsa le a keresési eredmények törlését, amikor a felhasználó bezárja a keresőpanelt. Ha le van tiltva, a keresési eredmények akkor is megmaradnak, ha a felhasználó bezárja, majd újra megnyitja a keresőpanelt. Megjegyzés: a mobileszközök soha nem törlik a keresési eredményeket, még akkor sem, ha ez a beállítás engedélyezve van. Ennek az az oka, hogy a panelt be kell zárni a dokumentumon található keresési eredmények megtekintéséhez.",
+      "pageManipulation": "Oldal Manipuláció",
+      "disablePageDeletionConfirmationModal": "Az oldaltörlés megerősítési mód letiltása",
+      "disablePageDeletionConfirmationModalDesc": "Az oldal miniatűr nézetből való törlésekor kapcsolja ki a megerősítési módot",
+      "disableMultiselect": "Többválasztás letiltása",
+      "disableMultiselectDesc": "Tiltsa le a többszörös kijelölést a bal oldali miniatűr panelen",
+      "miscellaneous": "Vegyes",
+      "keyboardShortcut": "Billentyűparancs",
+      "command": "Parancs",
+      "description": "Leírás",
+      "action": "Akció",
+      "rotateDocumentClockwise": "Forgassa el a dokumentumot az óramutató járásával megegyező irányba",
+      "rotateDocumentCounterclockwise": "Forgassa el a dokumentumot az óramutató járásával ellentétes irányba",
+      "copyText": "A kijelölt szöveg vagy megjegyzések másolása",
+      "pasteText": "Szöveg vagy megjegyzések beillesztése",
+      "undoChange": "A kommentár módosításának visszavonása",
+      "redoChange": "Ismételje meg a megjegyzés módosítását",
+      "openFile": "Nyissa meg a fájlválasztót",
+      "openSearch": "Nyissa meg a keresési fedvényt",
+      "zoomOptions": "Nagyítási beállítások",
+      "zoomIn": "Ráközelíteni",
+      "zoomOut": "Kicsinyítés",
+      "setHeaderFocus": "A fókuszt a fejlécre állítja",
+      "fitScreenWidth": "Illessze a dokumentumot a képernyő szélességéhez egy kis képernyőn (< 640 képpont), ellenkező esetben illessze az eredeti méretéhez",
+      "print": "Nyomtatás",
+      "bookmarkOpenPanel": "Gyorsan vegyen fel egy oldalt a könyvjelzők közé, és nyissa meg a könyvjelzőpanelt",
+      "goToPreviousPage": "Ugrás az előző oldalra",
+      "goToNextPage": "Ugrás a következő oldalra",
+      "goToPreviousPageArrowUp": "Ugrás az előző oldalra egyetlen elrendezés módban (ArrowUp)",
+      "goToNextPageArrowDown": "Ugrás a következő oldalra egyetlen elrendezés módban (ArrowDown)",
+      "holdSwitchPan": "Tartsa lenyomva a Pásztázás módba váltáshoz, és engedje fel az előző eszközhöz való visszatéréshez",
+      "selectAnnotationEdit": "Válassza az AnnotationEdit eszközt",
+      "selectPan": "Válassza a Pan eszközt",
+      "selectCreateArrowTool": "Válassza az AnnotationCreateArrow eszközt",
+      "selectCreateCalloutTool": "Válassza az AnnotationCreateCallout eszközt",
+      "selectEraserTool": "Válassza ki az AnnotationEraser eszközt",
+      "selectCreateFreeHandTool": "Válassza ki az AnnotationCreateFreeHand eszközt",
+      "selectCreateStampTool": "Válassza az AnnotationCreateStamp eszközt",
+      "selectCreateLineTool": "Válassza ki az AnnotationCreateLine eszközt",
+      "selectCreateStickyTool": "Válassza az AnnotationCreateSticky eszközt",
+      "selectCreateEllipseTool": "Válassza az AnnotationCreateEllipse eszközt",
+      "selectCreateRectangleTool": "Válassza az AnnotationCreateRectangle eszközt",
+      "selectCreateRubberStampTool": "Válassza az AnnotationCreateRubberStamp eszközt",
+      "selectCreateFreeTextTool": "Válassza az AnnotationCreateFreeText eszközt",
+      "openSignatureModal": "Nyissa meg az aláírási módot vagy a fedvényt",
+      "selectCreateTextSquigglyTool": "Válassza az AnnotationCreateTextSquiggly eszközt",
+      "selectCreateTextHighlightTool": "Válassza az AnnotationCreateTextHighlight eszközt",
+      "selectCreateTextStrikeoutTool": "Válassza az AnnotationCreateTextStrikeout eszközt",
+      "selectCreateTextUnderlineTool": "Válassza az AnnotationCreateTextUnderline eszközt",
+      "editKeyboardShorcut": "Billentyűparancs szerkesztése",
+      "setShortcut": "Parancsikon beállítása",
+      "editShortcut": "Parancsikon szerkesztése",
+      "shortcutAlreadyExists": "A fenti billentyűparancs már létezik.",
+      "close": "Eszköztipp bezárása"
     }
   },
   "warning": {
     "deletePage": {
       "deleteTitle": "Oldal törlése",
-      "deleteMessage": "Biztosan törli a kiválasztott oldala(ka)t? Ezt nem lehet visszavonni",
+      "deleteMessage": "Biztosan törli a kiválasztott oldal(oka)t? Ezt nem lehet visszavonni.",
       "deleteLastPageMessage": "Nem törölheti a dokumentum összes oldalát."
     },
     "extractPage": {
@@ -564,6 +827,22 @@
     "colorPicker": {
       "deleteTitle": "Egyéni szín törlése",
       "deleteMessage": "Törli a kiválasztott egyéni színt? El lesz távolítva a színpalettáról."
+    },
+    "colorPalettePicker": {
+      "deleteTitle": "Egyéni szín törlése"
+    },
+    "multiDeleteAnnotation": {
+      "title": "Törli a megjegyzéseket?",
+      "message": "A törléssel eltávolítja az összes megjegyzést, választ és csoportosítást, és a művelet nem vonható vissza.\n\n Biztosan törli ezeket a kommentárokat?"
+    },
+    "closeFile": {
+      "title": "Letöltés nélkül bezárja?",
+      "message": "Módosítások történtek ezen a dokumentumon. Biztosan be szeretné zárni a munka letöltése nélkül? Ez a művelet nem vonható vissza.",
+      "rejectDownloadButton": "Letöltés nélkül zárja be"
+    },
+    "connectToURL": {
+      "title": "Biztonsági figyelmeztetés",
+      "message": "Ez a dokumentum a következőhöz próbál csatlakozni:\n\n{{- uri}}\n\n Ha megbízik ebben a dokumentumban, kattintson a Megerősítés gombra a megnyitásához."
     }
   },
   "shortcut": {
@@ -584,7 +863,7 @@
     "select": "(Kilépés)",
     "signature": "(S)",
     "squiggly": "(G)",
-    "image": "(ÉN)",
+    "image": "(I)",
     "redo": "(Ctrl Shift Z)",
     "redo_windows": "(Ctrl Y)",
     "undo": "(Ctrl Z)",
@@ -605,6 +884,7 @@
   "tool": {
     "pan": "Pán",
     "select": "Válassza ki",
+    "selectAnOption": "Válassz egy lehetőséget",
     "Marquee": "Marquee Zoom",
     "Link": "Link URL vagy oldal",
     "Standard": "Alapértelmezett",
@@ -614,7 +894,10 @@
     "url": "URL",
     "page": "oldal",
     "enterurl": "Adja meg az URL-t, amelyre hivatkozni szeretne",
-    "enterpage": "Válassza ki azt az oldalszámot, amelyre hivatkozni szeretne",
+    "enterUrlAlt": "Írd be az URLt",
+    "insertLink": "Hivatkozás beszúrása",
+    "insertLinkOrPage": "Hivatkozás vagy oldal beszúrása",
+    "enterpage": "Adja meg az oldalszámot, amelyre hivatkozni szeretne",
     "urlLink": "URL link"
   },
   "Model3D": {
@@ -625,10 +908,11 @@
   },
   "OpenFile": {
     "enterUrlOrChooseFile": "Adjon meg egy URL-t, vagy válasszon egy fájlt a WebViewerbe betölteni",
-    "enterUrl": "Írja be a fájl URL-címét",
+    "enterUrl": "Adja meg a fájl URL-címét",
     "extension": "Fájlkiterjesztés",
     "existingFile": "A fájl már nyitva van",
-    "addTab": "Tab hozzáadása"
+    "addTab": "Tab hozzáadása",
+    "newTab": "Új lap"
   },
   "datePicker": {
     "previousMonth": "Előző hónap",
@@ -683,6 +967,10 @@
     "invalidDateTime": "Érvénytelen dátum/idő: A bemenetnek meg kell egyeznie a formátummal"
   },
   "formField": {
+    "indexPanel": {
+      "formFieldList": "Űrlapmezők listája",
+      "notFields": "Ebben a dokumentumban nincsenek űrlapmezők"
+    },
     "formFieldPopup": {
       "fieldName": "Mező neve",
       "fieldValue": "Alapértelmezett érték",
@@ -693,9 +981,25 @@
       "apply": "Alkalmaz",
       "cancel": "Megszünteti",
       "flags": "Mező zászlók",
+      "fieldSize": "Mező méret",
       "options": "Lehetőségek",
+      "properties": "Tulajdonságok",
       "radioGroups": "Az azonos mezőnévvel rendelkező választógombok ugyanabba a csoportba fognak tartozni.",
       "nameRequired": "A mezőnév megadása kötelező",
+      "fieldIndicator": "Mezőjelzők",
+      "documentFieldIndicator": "Dokumentummező-jelzők",
+      "includeFieldIndicator": "Tartalmazza a mezőjelzőt",
+      "indicatorPlaceHolders": {
+        "TextFormField": "Szöveg beszúrása ide",
+        "CheckBoxFormField": "Jelölje be",
+        "RadioButtonFormField": "Tölt",
+        "ListBoxFormField": "Válassza ki",
+        "ComboBoxFormField": "Válassza ki",
+        "SignatureFormField": {
+          "fullSignature": "Itt írd alá",
+          "initialsSignature": "Kezdeti itt"
+        }
+      },
       "size": "Méret",
       "width": "Szélesség",
       "height": "Magasság",
@@ -703,6 +1007,14 @@
         "duplicate": "A mezőnév már létezik",
         "empty": "A mező neve nem lehet üres"
       }
+    },
+    "formFieldPanel": {
+      "SignatureFormField": "Aláírási mező megjegyzése",
+      "CheckBoxFormField": "Jelölőnégyzet Mező megjegyzés",
+      "RadioButtonFormField": "Rádiógomb mező megjegyzés",
+      "ListBoxFormField": "Listadoboz mező megjegyzése",
+      "ComboBoxFormField": "Kombinált mező mező megjegyzése",
+      "TextFormField": "Szövegmező megjegyzés"
     },
     "apply": "Mezők alkalmazása",
     "type": "Mező típusa",
@@ -712,8 +1024,21 @@
       "checkbox": "Jelölje be a négyzetet",
       "radio": "Rádiógomb",
       "listbox": "Listadoboz",
-      "combobox": "Kombinált doboz"
+      "combobox": "Kombinált doboz",
+      "button": "Gomb"
     }
+  },
+  "alignmentPopup": {
+    "alignment": "Igazítsa",
+    "alignLeft": "Balra igazít",
+    "alignHorizontalCenter": "Állítsa be a vízszintes középpontot",
+    "alignVerticalCenter": "Függőleges középre igazítás",
+    "alignRight": "Igazítás jobbra",
+    "alignTop": "Felső igazítása",
+    "alignBottom": "Alulra igazítás",
+    "distribute": "Terjeszteni",
+    "distributeHorizontal": "Vízszintes elosztás",
+    "distributeVertical": "Függőleges elosztás"
   },
   "digitalSignatureModal": {
     "certification": "tanúsítvány",
@@ -760,13 +1085,16 @@
     "certifier": "igazolni",
     "certified": "igazolt",
     "Certified": "Minősített",
+    "Certification": "Tanúsítvány",
     "signer": "aláíró",
     "signed": "aláírva",
     "Signed": "Aláírva",
+    "Signature": "Aláírás",
     "by": "által",
     "on": "tovább",
     "disallowedChange": "Nem engedélyezett módosítás: {{type}}, objnum: {{objnum}}",
     "unsignedSignatureField": "Aláíratlan aláírási mező: {{fieldName}}",
+    "signatureProperties": "Aláírás tulajdonságai",
     "trustVerification": {
       "current": "A használt ellenőrzési idő a jelenlegi idő volt",
       "signing": "Az ellenőrzési idő az aláíró számítógépén lévő órától kezdődik",
@@ -817,6 +1145,10 @@
       "noSignatureFields": "Ez a dokumentum nem tartalmaz aláírási mezőket",
       "certificateDownloadError": "Hiba történt egy megbízható tanúsítvány letöltése közben",
       "localCertificateError": "Vannak problémák a helyi tanúsítvány olvasásával kapcsolatban"
+    },
+    "verificationStatus": {
+      "valid": "A {{verificationType}} érvényes.",
+      "failed": "{{verificationType}} sikertelen."
     }
   },
   "cropPopUp": {
@@ -827,7 +1159,8 @@
     "cropDimensions": "Termésméretek",
     "dimensionInput": {
       "unitOfMeasurement": "Mértékegység",
-      "autoTrim": "Előbeállítások"
+      "autoTrim": "Előbeállítások",
+      "autoTrimCustom": "Egyedi"
     },
     "cropModal": {
       "applyTitle": "Kivágás alkalmazása?",
@@ -836,12 +1169,29 @@
       "cancelMessage": "Biztosan megszakítja az összes kiválasztott oldal levágását?"
     }
   },
+  "snippingPopUp": {
+    "title": "Vágóeszköz",
+    "clipboard": "Másolás a vágólapra",
+    "download": "Letöltés",
+    "cropAndRemove": "Vágás és eltávolítás",
+    "snippingModal": {
+      "applyTitle": "Vágás alkalmazása?",
+      "applyMessage": "Ez a művelet véglegesen kivágja a megadott területet, és eltávolítja a másik oldalakat. Nem lehet visszavonni.",
+      "cancelTitle": "Vágás megszakítása?",
+      "cancelMessage": "Biztosan meg akarja állítani a vágást?"
+    }
+  },
+  "textEditingPanel": {
+    "paragraph": "Bekezdés",
+    "text": "Szöveg"
+  },
   "redactionPanel": {
     "noMarkedRedactions": "Kezdje el a szerkesztést szöveg, régiók, oldalak megjelölésével vagy kereséssel.",
-    "redactionSearchPlaceholder": "Hozzáadás kulcsszavas kereséssel vagy mintákkal",
+    "redactionSearchPlaceholder": "Szerkesztés billentyűzet vagy minták alapján",
     "redactionCounter": "Szerkesztésre megjelölve",
     "clearMarked": "Egyértelmű",
     "redactAllMarked": "Összes szerkesztése",
+    "redactionItems": "Szerkesztési elemek",
     "redactionItem": {
       "regionRedaction": "Régió szerkesztése",
       "fullPageRedaction": "Teljes oldalas szerkesztés",
@@ -858,7 +1208,7 @@
       "phoneNumbers": "Telefonszámok",
       "images": "Képek",
       "emails": "E-mailek",
-      "pattern": "Minta",
+      "pattern": "Minták",
       "start": "Kezdje el a keresést"
     }
   },
@@ -867,7 +1217,256 @@
     "miscValuesHeader": "Összes",
     "emptyPanelMessage": "Jelöljön ki egy elemet a tulajdonságainak megtekintéséhez"
   },
+  "watermarkPanel": {
+    "textWatermark": "Szöveges vízjel",
+    "uploadImage": "Kép feltöltése",
+    "browse": "Tallózás",
+    "watermarkOptions": "Vízjel opciók",
+    "watermarks": "Vízjelek"
+  },
+  "portfolio": {
+    "createPDFPortfolio": "PDF-portfólió létrehozása",
+    "uploadFiles": "Fájlok feltöltése",
+    "uploadFolder": "Mappa feltöltése",
+    "addFiles": "Fájlok hozzáadása",
+    "addFile": "Fájl hozzáadása",
+    "addFolder": "Mappa hozzáadása",
+    "createFolder": "Mappa létrehozás",
+    "portfolioPanelTitle": "PDF portfólió",
+    "portfolioNewFolder": "Új mappa",
+    "portfolioDocumentTitle": "Dokumentum címe",
+    "portfolioFolderPlaceholder": "Mappa neve",
+    "portfolioFilePlaceholder": "Fájl név",
+    "folderNameAlreadyExists": "A mappanév már létezik",
+    "fileNameAlreadyExists": "A fájlnév már létezik",
+    "openFile": "Megnyitás új lapon",
+    "fileAlreadyExists": "A fájl már létezik",
+    "fileAlreadyExistsMessage": "A \"{{fileName}}\" fájl már létezik a portfólióban.",
+    "deletePortfolio": "Biztosan törli a következőt: \"{{fileName}}\"?",
+    "reselect": "Válassza ki újra"
+  },
   "languageModal": {
     "selectLanguage": "Válasszon nyelvet"
+  },
+  "officeEditor": {
+    "bold": "Bátor",
+    "italic": "Dőlt",
+    "underline": "Aláhúzás",
+    "textColor": "Szöveg szín",
+    "leftAlign": "Balra igazítás",
+    "centerAlign": "Középre igazítás",
+    "rightAlign": "Jobbra igazítás",
+    "justify": "Indokolja meg",
+    "lineSpacing": "Sor- és bekezdésköz",
+    "lineSpacingMenu": "Sorköz",
+    "bulletList": "Felsorolásos lista",
+    "numberList": "Számozott lista",
+    "decreaseIndent": "Behúzás csökkentése",
+    "increaseIndent": "Behúzás növelése",
+    "insertLink": "Link beszúrása",
+    "insertImage": "Kép beszúrása",
+    "image": "Kép",
+    "table": "asztal",
+    "insertRowAbove": "Sor beszúrása fent",
+    "insertRowBelow": "Sor beszúrása alább",
+    "insertColumnRight": "Jobb oldali oszlop beszúrása",
+    "insertColumnLeft": "Oszlop beszúrása balra",
+    "deleteRow": "Sor törlése",
+    "deleteColumn": "Oszlop törlése",
+    "deleteTable": "Táblázat törlése",
+    "deleted": "Törölve:",
+    "added": "Hozzáadva:",
+    "editing": "Szerkesztés",
+    "editingDescription": "Dokumentum szerkesztése",
+    "pageBreak": "Oldaltörés",
+    "reviewing": "Áttekintés",
+    "reviewingDescription": "Tegyél javaslatokat",
+    "viewOnly": "Csak megtekintésre",
+    "viewOnlyDescription": "Megtekintés javaslatok nélkül",
+    "notSupportedOnMobile": "Az irodai szerkesztés nem támogatott mobileszközökön.",
+    "previewAllChanges": "Tekintse meg az összes módosítás előnézetét",
+    "accept": "Elfogad",
+    "reject": "Elutasít",
+    "pastingTitle": "A beillesztés nem elérhető",
+    "pastingMessage": "A beillesztés nem támogatott az Ön böngészőjében. Ehelyett használhat billentyűkódot",
+    "pastingWithoutFormatTitle": "A formázás nélküli beillesztés nem lehetséges",
+    "pastingWithoutFormatMessage": "A formázás nélküli beillesztést a böngésző nem támogatja. Ehelyett használhat billentyűkódot",
+    "lineSpacingOptions": {
+      "15": "1.5",
+      "115": "1.15",
+      "single": "Egyetlen",
+      "double": "Kettős",
+      "custom": "Szokás"
+    },
+    "numberDropdown": {
+      "6": "Szám latin római 1",
+      "7": "Szám Tizedes",
+      "8": "Szám latin római 2",
+      "10": "latin római",
+      "11": "Római latin szám",
+      "dropdownLabel": "Előre beállított számozás"
+    },
+    "bulletDropdown": {
+      "0": "Golyó",
+      "1": "Golyó tér",
+      "2": "Square Bullet",
+      "3": "Gyémánt",
+      "4": "Ellenőrzés",
+      "5": "Nyíl",
+      "dropdownLabel": "Bullet Presets"
+    },
+    "fontSize": {
+      "dropdownLabel": "Betűméret"
+    },
+    "fontStyles": {
+      "dropdownLabel": "Betűstílusok"
+    },
+    "fontFamily": {
+      "dropdownLabel": "Betűcsalád"
+    }
+  },
+  "insertPageModal": {
+    "title": "Új oldal beszúrása",
+    "tabs": {
+      "blank": "Üres",
+      "upload": "Feltöltés"
+    },
+    "pagePlacements": {
+      "header": "Oldalelhelyezés",
+      "above": "Oldal felett",
+      "below": "Oldal alatt"
+    },
+    "pageLocations": {
+      "header": "Oldal helye",
+      "specify": "Oldal megadása",
+      "specifyLocation": "Adja meg az oldal helyét",
+      "amount": "Oldalak mennyisége",
+      "total": "Teljes",
+      "pages": "Oldalak"
+    },
+    "pageDimensions": {
+      "header": "Oldal méretei",
+      "subHeader": "Előbeállítások",
+      "presets": {
+        "letter": "Levél",
+        "halfLetter": "Fél betű",
+        "juniorLegal": "Junior jogi",
+        "custom": "Egyedi"
+      },
+      "units": "Egységek"
+    },
+    "browse": "Tallózás a fájlok között",
+    "fileSelected": {
+      "title": "Válassza a Hozzáadandó oldalak lehetőséget"
+    },
+    "button": "Oldal(ok) hozzáadása",
+    "selectPages": "Válassza a Hozzáadandó oldalak lehetőséget",
+    "page": "oldal",
+    "warning": {
+      "title": "Kilép új oldal beszúrása?",
+      "message": "A kilépés visszavonja az összes eddig végzett kijelölést. Biztos, hogy továbbra is ki akar lépni?"
+    }
+  },
+  "multiViewer": {
+    "dragAndDrop": "Húzza ide a fájlt az összehasonlításhoz",
+    "or": "Vagy",
+    "browse": "Tallózás a fájlok között",
+    "startSync": "Indítsa el a Szinkronizálást",
+    "stopSync": "Szinkronizálás leállítása",
+    "closeDocument": "Zárja be a dokumentumot",
+    "save": "Dokumentum mentése",
+    "comparePanel": {
+      "Find": "Keresse meg a dokumentumban",
+      "changesList": "Lista módosítása",
+      "change": "változás",
+      "old": "Régi",
+      "new": "Új",
+      "page": "oldal",
+      "textContent": "Szövegtartalom",
+      "delete": "töröl",
+      "insert": "betét",
+      "edit": "szerkeszteni"
+    }
+  },
+  "saveModal": {
+    "close": "Bezárás",
+    "saveAs": "Mentés másként",
+    "general": "Tábornok",
+    "fileName": "Fájl név",
+    "fileType": "Fájltípus",
+    "fileLocation": "Fájl helye",
+    "browse": "Tallózás",
+    "pageRange": "Oldaltartomány",
+    "all": "Összes",
+    "currentView": "Aktuális nézet",
+    "currentPage": "Aktuális oldal",
+    "specifyPage": "Oldal megadása",
+    "properties": "Tulajdonságok",
+    "includeAnnotation": "Megjegyzések szerepeltetése",
+    "includeComments": "Megjegyzések szerepeltetése",
+    "watermark": "Vízjel",
+    "addWatermark": "Vízjel hozzáadása",
+    "save": "Fájl mentése",
+    "pageError": "Adjon meg egy tartományt 1 - ",
+    "fileNameCannotBeEmpty": "A fájlnév nem lehet üres"
+  },
+  "filePicker": {
+    "dragAndDrop": "Drag & Drop ide a fájlt",
+    "selectFile": "Válassza ki a fájlt itt",
+    "or": "Vagy"
+  },
+  "stylePanel": {
+    "headings": {
+      "styles": "Stílusok",
+      "annotation": "Annotáció",
+      "annotations": "Annotációk",
+      "tool": "Eszköz",
+      "textStyles": "Szövegstílusok",
+      "currentColor": "Aktuális szín",
+      "customColors": "Egyedi színek",
+      "redactionTextLabel": "Szöveg Címke",
+      "redactionMarkOutline": "Mark Outline",
+      "redactionFill": "Redakció színe",
+      "redactionTextPlaceholder": "Szöveges címke beszúrása",
+      "contentEdit": "Tartalom szerkesztése"
+    },
+    "lineStyles": {
+      "startLineStyleLabel": "Kezdővonal stílusa",
+      "middleLineStyleLabel": "Középső vonal stílusa",
+      "endLineStyleLabel": "Végső sorstílus"
+    },
+    "addColorToCustom": "Adjon hozzá egyedi színekhez",
+    "noToolSelected": "Válasszon ki egy eszközt az eszköz tulajdonságainak megtekintéséhez",
+    "noToolStyle": "Az eszköz nem tartalmaz stílustulajdonságokat.",
+    "lineEnding": {
+      "start": {
+        "dropdownLabel": "Sor indítása"
+      },
+      "end": {
+        "dropdownLabel": "Vonal vége"
+      },
+      "middle": {
+        "dropdownLabel": "Középső vonal"
+      }
+    },
+    "borderStyle": {
+      "dropdownLabel": "Határ"
+    }
+  },
+  "signatureListPanel": {
+    "header": "Aláírások listája",
+    "newSignature": "Új aláírás",
+    "newSignatureAndInitial": "Új aláírás és kezdőbetű",
+    "signatureList": {
+      "signature": "Aláírás",
+      "initials": "Monogram"
+    }
+  },
+  "rubberStampPanel": {
+    "header": "Bélyegek",
+    "standard": "Szabványos bélyegek"
+  },
+  "colorPickerModal": {
+    "modalTitle": "Színválasztó"
   }
 }
