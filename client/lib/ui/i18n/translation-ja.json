@@ -8,6 +8,7 @@
     "calibrate": "調整する",
     "cancel": "キャンセル",
     "confirm": "確認",
+    "currentPageIs": "現在のページは",
     "clear": "クリア",
     "clearAll": "すべてクリア",
     "close": "閉じる",
@@ -16,12 +17,19 @@
     "comment": "コメント",
     "reply": "返信する",
     "copy": "コピー",
+    "cut": "切る",
+    "paste": "ペースト",
+    "pasteWithoutFormatting": "書式なしで貼り付け",
     "delete": "削除",
+    "deleted": "削除されました",
     "group": "グループ化",
     "ungroup": "グループ解除",
     "download": "ダウンロード",
     "edit": "編集",
+    "collapse": "崩壊",
+    "expand": "拡大する",
     "extract": "抽出",
+    "extractPage": "ページの抽出",
     "enterFullscreen": "全画面表示",
     "exitFullscreen": "全画面表示を終了",
     "fit": "フィット",
@@ -29,6 +37,8 @@
     "fitToWidth": "幅に合わせる",
     "more": "さらに表示",
     "openFile": "ファイルを開く",
+    "page": "ページ",
+    "of": "の",
     "pagePrev": "前のページ",
     "pageNext": "次のページ",
     "pageSet": "ページを設定",
@@ -36,11 +46,18 @@
     "proceed": "進む",
     "name": "名前",
     "rename": "名前を変更する",
+    "remove": "取り除く",
     "ok": "OK",
     "rotate": "ページの方向",
     "rotate3D": "回転する",
     "rotateClockwise": "右90°回転",
     "rotateCounterClockwise": "左90°回転",
+    "rotatedClockwise": "時計回りに回転",
+    "rotatedCounterClockwise": "反時計回りに回転",
+    "rotationIs": "現在のページ回転は",
+    "movedToBottomOfDocument": "文書の最後に移動",
+    "movedToTopofDocument": "文書の先頭に移動",
+    "extracted": "抽出された",
     "save": "保存",
     "post": "投稿",
     "create": "作成",
@@ -53,13 +70,13 @@
     "zoomIn": "ズームイン",
     "zoomOut": "ズームアウト",
     "zoomSet": "ズームを設定",
+    "zoomChanged": "現在のズームは",
     "zoomControls": "ズームコントロール",
     "draw": "手書き",
     "type": "タイピング",
     "upload": "アップロード",
     "link": "リンク",
-    "darkMode": "ダークモード",
-    "lightMode": "ライトモード",
+    "unlink": "リンクの削除",
     "fileAttachmentDownload": "添付ファイルをダウンロード",
     "prevResult": "前の結果",
     "nextResult": "次の結果",
@@ -70,23 +87,37 @@
     "exit": "終了",
     "addOption": "オプションを追加",
     "formFieldEdit": "フォームフィールドの編集",
+    "formFieldEditMode": "フォームフィールドの編集",
+    "contentEditMode": "コンテンツの編集",
     "viewShortCutKeysFor3D": "ショートカットキーを表示する",
     "markAllRead": "すべて既読にする",
+    "pageInsertion": "ページの挿入",
     "insertPage": "ページ挿入",
-    "insertBlankPageAbove": "上に空白のページを挿入",
-    "insertBlankPageBelow": "下に空白のページを挿入",
+    "insert": "入れる",
     "pageManipulation": "ページ操作",
     "replace": "入れ替え",
+    "replacePage": "ページを置換",
+    "modal": "モーダル",
+    "isOpen": "開いています",
     "setDestination": "行き先を設定する",
     "showLess": "表示を減らす",
     "showMore": "...さらに表示",
     "chooseFile": "ファイルを選択してください",
+    "changeDate": "変更日",
+    "browse": "ブラウズファイル",
     "selectYourOption": "オプションを選択してください",
     "open": "開ける",
     "deselectAll": "すべての選択を解除",
     "select": "選択する",
     "moveToTop": "上に移動",
     "moveToBottom": "下に移動",
+    "movePageToTop": "ページを先頭に移動",
+    "movePageToBottom": "ページを一番下に移動",
+    "moveUp": "上に移動",
+    "moveDown": "下に移動",
+    "moveLeft": "左に移動",
+    "moveRight": "右に移動",
+    "backToMenu": "メニューに戻る",
     "redactPages": "ページを編集する",
     "playAudio": "オーディオを再生",
     "pauseAudio": "オーディオの一時停止",
@@ -94,8 +125,24 @@
     "unselect": "選択を解除",
     "addMark": "マークを追加",
     "viewFile": "ファイルを閲覧する",
-    "switchLanguage": "言語",
-    "multiReplyAnnotations": "選択した注釈に返信 ({{count}})"
+    "multiReplyAnnotations": "選択した注釈に返信 ({{count}})",
+    "comparePages": "ページを比較する",
+    "startComparison": "比較を開始",
+    "showComparison": "比較を表示",
+    "highlightChanges": "変更点をハイライト",
+    "back": "戻る",
+    "clearSignature": "明確な署名",
+    "clearInitial": "初期値をクリア",
+    "readOnlySignature": "読み取り専用の署名は削除できません",
+    "newDocument": "新しいドキュメント",
+    "sideBySideView": "並べて表示",
+    "pageNumberInput": "ページ番号入力",
+    "addNewColor": "新しい色を追加",
+    "deleteColor": "選択した色を削除",
+    "copySelectedColor": "選択したカラーをコピー",
+    "showMoreColors": "その他の色を表示",
+    "showLessColors": "色を少なく表示",
+    "fromCustomColorPicker": "カスタムカラーピッカーから"
   },
   "annotation": {
     "areaMeasurement": "面積測定",
@@ -109,6 +156,8 @@
     "formFillCheckmark": "チェックマーク",
     "formFillCross": "クロス",
     "distanceMeasurement": "距離測定",
+    "rectangularAreaMeasurement": "長方形の領域",
+    "ellipseMeasurement": "楕円領域",
     "countMeasurement": "カウント測定",
     "ellipse": "楕円",
     "eraser": "消しゴム",
@@ -116,6 +165,8 @@
     "freehand": "フリーハンド",
     "freeHandHighlight": "フリーハンドハイライト",
     "freetext": "フリーテキスト",
+    "markInsertText": "テキストを挿入",
+    "markReplaceText": "テキストを置換",
     "highlight": "ハイライト",
     "image": "画像",
     "line": "直線",
@@ -127,6 +178,7 @@
     "redact": "墨消し",
     "formFillDot": "ドット",
     "signature": "署名",
+    "snipping": "切り取りツール",
     "squiggly": "波線",
     "stamp": "スタンプ",
     "stickyNote": "注釈",
@@ -146,7 +198,8 @@
     "3D": "3D",
     "sound": "サウンド",
     "changeView": "ビューを変更",
-    "newImage": "新しいイメージ"
+    "newImage": "新しいイメージ",
+    "defaultCustomStampTitle": "カスタムスタンプ"
   },
   "rubberStamp": {
     "Approved": "承認済",
@@ -181,6 +234,7 @@
     "searchPanel": "検索",
     "menuOverlay": "メニュー",
     "notesPanel": "コメント",
+    "indexPanel": "インデックスパネル",
     "outlinePanel": "概要",
     "outlinesPanel": "概要",
     "newOutlineTitle": "新しいアウトラインタイトル",
@@ -195,7 +249,8 @@
     "thumbnailsPanel": "サムネイル",
     "toolsButton": "ツール",
     "redaction": "墨消し",
-    "viewControlsOverlay": "ページ表示",
+    "viewControls": "ページ表示",
+    "pageControls": "ページコントロール",
     "calibration": "調整",
     "zoomOverlay": "ズームオーバーレイ",
     "textPopup": "テキストポップアップ",
@@ -204,14 +259,20 @@
     "multiSelectButton": "複数選択",
     "pageReplaceModalTitle": "ページを入れ替える",
     "files": "ファイル",
+    "file": "ファイル",
     "editText": "テキストの編集",
     "redactionPanel": "墨消しパネル",
+    "tabLabel": "タブ",
     "noteGroupSection": {
       "open": "すべての注釈を表示",
       "close": "すべての注釈を閉じる"
-    }
+    },
+    "comparePanel": "比較パネル",
+    "watermarkPanel": "透かしパネル"
   },
   "message": {
+    "showMore": "もっと見せる",
+    "showLess": "表示を減らす",
     "toolsOverlayNoPresets": "プリセットなし",
     "badDocument": "ドキュメントの読み込みに失敗しました。ドキュメントが破損しているか、有効ではありません。",
     "customPrintPlaceholder": "例：3, 4-10",
@@ -227,6 +288,7 @@
     "noAttachments": "このドキュメントには添付ファイルはありません。",
     "noResults": "結果が見つかりませんでした。",
     "numResultsFound": "結果が見つかりました",
+    "loadError": "ドキュメントの読み込みエラー",
     "notSupported": "このファイル形式はサポートされていません。",
     "passwordRequired": "パスワードが必要です",
     "enterPasswordPlaceholder": "パスワードを入力する",
@@ -239,23 +301,28 @@
     "searching": "検索中...",
     "searchCommentsPlaceholder": "コメントを検索",
     "searchDocumentPlaceholder": "ドキュメント内を検索",
+    "searchSettingsPlaceholder": "検索設定",
+    "searchSuggestionsPlaceholder": "検索候補",
     "signHere": "ここに署名してください",
     "insertTextHere": "ここにテキストを挿入してください",
     "imageSignatureAcceptedFileTypes": "{{acceptedFileTypes}}のみが許可されています",
+    "signatureRequired": "続行するには署名とイニシャルが必要です",
     "enterMeasurement": "2点間の測定値を入力します",
     "errorEnterMeasurement": "入力した数値は無効です。7.5や7 1/2などの値を入力できます",
     "linkURLorPage": "ページまたはURLのリンクを挿入",
     "warning": "警告",
-    "enterContentEditingMode": "編集モードを開始しようとしています。",
-    "existingAnnotationWarning": "編集内容が既存の注釈と一致しない場合があります。",
-    "changesCannotBeUndone": "行った変更は元に戻せません。",
+    "svgMalicious": "セキュリティのために無視される SVG スクリプト",
     "doNotShowAgain": "次回以降は表示しない",
+    "doNotAskAgain": "二度と質問しないで",
     "enterReplacementText": "置き換えるテキストを入力してください",
+    "sort": "選別",
     "sortBy": "並び替え",
     "emptyCustomStampInput": "スタンプテキストを空にすることはできません",
     "unpostedComment": "未投稿のコメント",
     "lockedLayer": "レイヤーがロックされています",
     "layerVisibililtyNoChange": "レイヤーの可視性は変更できません",
+    "noLayers": "このドキュメントにはレイヤーがありません。",
+    "noSignatureFields": "この文書には署名フィールドがありません。",
     "untitled": "無題",
     "selectHowToLoadFile": "ドキュメントの読み込み方法を選択します",
     "openFileByUrl": "URLでファイルを開く：",
@@ -264,9 +331,13 @@
     "selectFile": "ファイルを選ぶ",
     "selectPageToReplace": "ドキュメント内の入れ替えたいページを選択します。",
     "embeddedFiles": "埋め込みファイル",
-    "pageNum": "ページ番号",
+    "pageNum": "ページ",
     "viewBookmark": "ページにブックマークを表示",
-    "error": "エラー"
+    "error": "エラー",
+    "errorPageNumber": "ページ番号が無効です。限界は",
+    "errorBlankPageNumber": "ページ番号を指定してください",
+    "errorLoadingDocument": "このドキュメントの読み取り中に問題が発生したため、一部のページが表示されない可能性があります。これは、ドキュメントが破損している可能性があることを示しています。総ページ数は {{totalPageCount}} で、表示されているページ数は {{displayedPageCount}} です。",
+    "noRevisions": "この文書には改訂版はありません。"
   },
   "option": {
     "type": {
@@ -290,7 +361,9 @@
       "underline": "下線",
       "squiggly": "波線",
       "3D": "3D",
-      "other": "その他"
+      "other": "その他",
+      "initials": "イニシャル",
+      "saved": "保存しました"
     },
     "notesOrder": {
       "dropdownLabel": "ソート順リスト",
@@ -305,6 +378,7 @@
     },
     "toolbarGroup": {
       "dropdownLabel": "ツールバー・グループ",
+      "flyoutLabel": "リボン",
       "toolbarGroup-View": "閲覧",
       "toolbarGroup-Annotate": "注釈",
       "toolbarGroup-Shapes": "図形",
@@ -314,7 +388,10 @@
       "toolbarGroup-EditText": "テキストの編集",
       "toolbarGroup-FillAndSign": "入力と署名",
       "toolbarGroup-Forms": "フォーム",
-      "toolbarGroup-Redact": "墨消し"
+      "toolbarGroup-Redact": "墨消し",
+      "toolbarGroup-oe-Home": "家",
+      "toolbarGroup-oe-Insert": "入れる",
+      "toolbarGroup-oe-Review": "レビュー"
     },
     "annotationColor": {
       "StrokeColor": "枠線",
@@ -324,12 +401,15 @@
     "colorPalette": {
       "colorLabel": "色"
     },
+    "colorPalettePicker": {
+      "addColor": "新しい色を追加",
+      "selectColor": "色を選択してください"
+    },
     "displayMode": {
       "layout": "レイアウト",
       "pageTransition": "ページ移動"
     },
     "documentControls": {
-      "placeholder": "1, 3, 5-10",
       "selectTooltip": "複数のページを選択",
       "closeTooltip": "複数選択を閉じる"
     },
@@ -353,7 +433,8 @@
       "noteContent": {
         "noName": "（ノーネーム）",
         "noDate": "（日付なし）"
-      }
+      },
+      "toggleMultiSelect": "注釈の複数選択を切り替える"
     },
     "pageTransition": {
       "continuous": "連続表示",
@@ -371,7 +452,9 @@
       "qualityHigh": "きれい",
       "includeAnnotations": "注釈を含める",
       "includeComments": "コメントを含める",
-      "printSettings": "印刷設定"
+      "printSettings": "印刷設定",
+      "printGrayscale": "グレースケール印刷",
+      "printCurrentDisabled": "現在のビューは、単一のページを表示する場合にのみ使用できます。"
     },
     "printInfo": {
       "author": "作成者",
@@ -384,7 +467,15 @@
     "searchPanel": {
       "caseSensitive": "大文字と小文字を区別",
       "wholeWordOnly": "単語全体",
-      "wildcard": "ワイルドカード"
+      "wildcard": "ワイルドカード",
+      "replace": "交換",
+      "replaceAll": "すべて置換",
+      "replaceText": "テキストを置き換える",
+      "confirmMessageReplaceAll": "すべてのテキストを置き換えてもよろしいですか？",
+      "confirmMessageReplaceOne": "このテキストを置き換えてもよろしいですか？",
+      "moreOptions": "より多くのオプション",
+      "lessOptions": "オプションが少ない",
+      "confirm": "確認"
     },
     "toolsOverlay": {
       "currentStamp": "現在のスタンプ",
@@ -395,22 +486,38 @@
       "addStamp": "新しいスタンプを追加"
     },
     "signatureOverlay": {
-      "addSignature": "新しい署名を追加"
+      "addSignature": "新しい署名を追加",
+      "addSignatureOrInitials": "署名/イニシャル"
     },
     "signatureModal": {
       "modalName": "新しい署名を作成する",
       "dragAndDrop": "ここに画像をドラッグ＆ドロップ",
       "or": "または",
       "pickImage": "署名画像を選択",
-      "selectImage": "ここで画像を選択してください"
+      "selectImage": "ここで画像を選択してください",
+      "typeSignature": "タイプ署名*",
+      "typeInitial": "タイプ イニシャル*",
+      "drawSignature": "署名を描く*",
+      "drawInitial": "イニシャルを描く*",
+      "imageSignature": "画像署名",
+      "imageInitial": "画像の頭文字",
+      "pickInitialsFile": "イニシャルを選択",
+      "noSignatures": "現在、保存されている署名はありません。",
+      "fontStyle": "フォントスタイル",
+      "textSignature": {
+        "dropdownLabel": "フォントファミリー"
+      }
     },
     "pageReplacementModal": {
-      "dragAndDrop": "ここにファイルをドラッグ＆ドロップ",
-      "or": "または",
+      "yourFiles": "あなたのファイル",
       "chooseFile": "ファイルを選択",
       "localFile": "ローカルファイル",
       "pageReplaceInputLabel": "ページを置き換える",
-      "pageReplaceInputFromSource": "ページ"
+      "pageReplaceInputFromSource": "ページ",
+      "warning": {
+        "title": "置換ページを終了しますか?",
+        "message": "終了すると、これまでに行ったすべての選択がキャンセルされます。終了してもよろしいですか？"
+      }
     },
     "filterAnnotModal": {
       "color": "色",
@@ -418,7 +525,9 @@
       "filters": "フィルタ",
       "user": "ユーザー",
       "type": "タイプ",
-      "status": "状態"
+      "status": "状態",
+      "filterSettings": "フィルター設定",
+      "filterDocument": "ドキュメントとコメント パネルをフィルター処理する"
     },
     "state": {
       "accepted": "承認",
@@ -444,10 +553,17 @@
       "countMeasurement": "カウント測定",
       "radius": "半径",
       "count": "カウント",
-      "length": "長さ"
+      "length": "長さ",
+      "xAxis": "X軸",
+      "yAxis": "Y軸"
+    },
+    "freeTextOption": {
+      "autoSizeFont": "フォントサイズを動的に拡大縮小する"
     },
     "measurementOption": {
-      "scale": "縮尺"
+      "scale": "縮尺",
+      "selectScale": "スケールを選択",
+      "selectScaleDropdown": "スケールドロップダウンを選択"
     },
     "measurement": {
       "scaleModal": {
@@ -458,7 +574,9 @@
         "preset": "プリセット",
         "paperUnits": "ペーパーユニット",
         "displayUnits": "ディスプレイユニット",
-        "fractionUnitsTooltip": "分数単位は、inとft-inにのみ適用されます"
+        "fractionUnitsTooltip": "分数単位は、inとft-inにのみ適用されます",
+        "incorrectSyntax": "構文が正しくありません",
+        "units": "ユニット"
       },
       "scaleOverlay": {
         "addNewScale": "新しいスケールを追加",
@@ -476,13 +594,27 @@
         "deletionIs": "削除は",
         "irreversible": "不可逆",
         "willDeleteMeasurement": "関連する測定値を削除します。",
-        "confirmDelete": "このスケールを削除してもよろしいですか？"
+        "confirmDelete": "このスケールを削除してもよろしいですか？",
+        "thisCantBeUndone": "これは元に戻せません。",
+        "ifChangeScale": "選択した測定またはツールのスケールを変更すると、スケール",
+        "notUsedWillDelete": " 測定やツールで使用されなくなり、削除されます。削除は元に戻せません。",
+        "ifToContinue": "続行してもよろしいですか？"
+      }
+    },
+    "contentEdit": {
+      "deletionModal": {
+        "title": "コンテンツの削除",
+        "message": "選択したコンテンツを削除してもよろしいですか?これを元に戻すことはできません。"
+      },
+      "digitalSign": {
+        "title": "警告 封印された文書",
+        "message": "この文書は署名されており、変更または変更することはできません。"
       }
     },
     "stylePopup": {
       "textStyle": "テキストスタイル",
       "colors": "色",
-      "invalidFontSize": "フォントサイズは次より小さくしてください。",
+      "invalidFontSize": "フォントサイズは以下の範囲内である必要があります",
       "labelText": "ラベルテキスト",
       "labelTextPlaceholder": "ラベルテキストを追加"
     },
@@ -524,7 +656,14 @@
     "thumbnailPanel": {
       "delete": "削除",
       "rotateClockwise": "右90°回転",
-      "rotateCounterClockwise": "左90°回転"
+      "rotateCounterClockwise": "左90°回転",
+      "rotatePageClockwise": "ページを時計回りに回転",
+      "rotatePageCounterClockwise": "ページを反時計回りに回転",
+      "moreOptions": "より多くのオプション",
+      "moreOptionsMenu": "その他のサムネイル オプション メニュー",
+      "enterPageNumbers": "選択するページ番号を入力してください",
+      "multiSelectPages": "複数選択ページ",
+      "multiSelectPagesExample": "例えば1、3、5-10"
     },
     "thumbnailsControlOverlay": {
       "move": "ページを移動する"
@@ -558,7 +697,9 @@
       "minute": "分",
       "second": "2番",
       "textColor": "テキストの色",
-      "backgroundColor": "背景色"
+      "backgroundColor": "背景色",
+      "dateToolTipLabel": "日付形式に関する詳細情報",
+      "previewCustomStamp": "プレビュー"
     },
     "pageRedactModal": {
       "addMark": "マークを追加",
@@ -566,18 +707,99 @@
       "current": "現在のページ",
       "specify": "ページを指定",
       "odd": "奇数ページのみ",
-      "even": "偶数ページのみ",
-      "header": "ページ編集をマーク",
-      "specifyPlaceholder": "1、3、5-10"
+      "even": "偶数ページのみ"
     },
     "lineStyleOptions": {
       "title": "スタイル"
+    },
+    "settings": {
+      "settings": "設定",
+      "searchSettings": "検索設定",
+      "general": "全般的",
+      "language": "言語",
+      "theme": "テーマ",
+      "darkMode": "ダークモード",
+      "lightMode": "ライトモード",
+      "advancedSetting": "詳細設定",
+      "viewing": "閲覧中",
+      "disableFadePageNavigationComponent": "フェード ページ ナビゲーション コンポーネントを無効にする",
+      "disableFadePageNavigationComponentDesc": "ページ ナビゲーション コンポーネントを常に画面に表示します。デフォルトの動作は、非アクティブ状態が一定時間続くとフェードすることです。",
+      "disableNativeScrolling": "ネイティブ スクロールを無効にする",
+      "disableNativeScrollingDesc": "ネイティブのモバイル デバイスのスクロール動作が以前に有効になっている場合は無効にします。デフォルトでは、ネイティブのモバイル デバイスのスクロール動作はオフになっていることに注意してください。",
+      "annotations": "注釈",
+      "disableToolDefaultStyleUpdateFromAnnotationPopup": "注釈ポップアップからのツールの既定のスタイルの更新を無効にする",
+      "disableToolDefaultStyleUpdateFromAnnotationPopupDesc": "注釈を作成した関連ツールへの注釈スタイルの更新の同期を無効にします。そのため、注釈のスタイルが変更された場合、ツールのデフォルト スタイルは更新されません。",
+      "notesPanel": "ノートパネル",
+      "disableNoteSubmissionWithEnter": "Enter によるメモの送信を無効にする",
+      "disableNoteSubmissionWithEnterDesc": "以前に有効になっていた場合は、Enter キーを押すだけでメモを送信する機能を無効にします。これにより、メモの送信がデフォルトの Ctrl/Cmd + Enter に戻ります。",
+      "disableAutoExpandCommentThread": "コメント スレッドの自動展開を無効にする",
+      "disableAutoExpandCommentThreadDesc": "ノート パネルのすべてのコメント スレッドの自動展開を無効にします。",
+      "disableReplyCollapse": "返信の折りたたみを無効にする",
+      "disableReplyCollapseDesc": "ノート パネルでの返信の折りたたみを無効にします。",
+      "disableTextCollapse": "テキストの折りたたみを無効にする",
+      "disableTextCollapseDesc": "ノート パネルでの注釈のテキストの折りたたみを無効にします。",
+      "search": "探す",
+      "disableClearSearchOnPanelClose": "パネルを閉じるときに検索をクリアしない",
+      "disableClearSearchOnPanelCloseDesc": "ユーザーが検索パネルを閉じたときの検索結果のクリアを無効にします。無効にすると、ユーザーが検索パネルを閉じて再度開いても検索結果が保持されます。この設定が有効になっていても、モバイル デバイスでは検索結果がクリアされないことに注意してください。これは、ドキュメントの検索結果を表示するには、パネルを閉じる必要があるためです。",
+      "pageManipulation": "ページ操作",
+      "disablePageDeletionConfirmationModal": "ページ削除確認モーダルを無効にする",
+      "disablePageDeletionConfirmationModalDesc": "サムネイル ビューからページを削除するときの確認モーダルを無効にする",
+      "disableMultiselect": "複数選択を無効にする",
+      "disableMultiselectDesc": "左側のサムネイル パネルで複数選択を無効にする",
+      "miscellaneous": "その他",
+      "keyboardShortcut": "キーボード ショートカット",
+      "command": "指示",
+      "description": "説明",
+      "action": "アクション",
+      "rotateDocumentClockwise": "ドキュメントを時計回りに回転",
+      "rotateDocumentCounterclockwise": "ドキュメントを反時計回りに回転",
+      "copyText": "選択したテキストまたは注釈をコピーする",
+      "pasteText": "テキストまたは注釈を貼り付ける",
+      "undoChange": "注釈の変更を元に戻す",
+      "redoChange": "注釈の変更をやり直す",
+      "openFile": "ファイルピッカーを開く",
+      "openSearch": "検索オーバーレイを開く",
+      "zoomOptions": "ズームオプション",
+      "zoomIn": "ズームイン",
+      "zoomOut": "ズームアウトする",
+      "setHeaderFocus": "ヘッダーにフォーカスを設定します",
+      "fitScreenWidth": "小さな画面 (< 640px) ではドキュメントを画面幅に合わせます。それ以外の場合は元のサイズに合わせます",
+      "print": "印刷する",
+      "bookmarkOpenPanel": "ページをすばやくブックマークして、ブックマーク パネルを開く",
+      "goToPreviousPage": "前のページへ",
+      "goToNextPage": "次のページへ",
+      "goToPreviousPageArrowUp": "シングルレイアウトモードで前のページに移動 (ArrowUp)",
+      "goToNextPageArrowDown": "シングルレイアウトモードで次のページに移動 (ArrowDown)",
+      "holdSwitchPan": "長押しするとパン モードに切り替わり、離すと前のツールに戻ります",
+      "selectAnnotationEdit": "AnnotationEdit ツールを選択します",
+      "selectPan": "パン ツールを選択します。",
+      "selectCreateArrowTool": "AnnotationCreateArrow ツールを選択します",
+      "selectCreateCalloutTool": "AnnotationCreateCallout ツールを選択します",
+      "selectEraserTool": "注釈消しゴムツールを選択します",
+      "selectCreateFreeHandTool": "AnnotationCreateFreeHand ツールを選択します。",
+      "selectCreateStampTool": "AnnotationCreateStamp ツールを選択します",
+      "selectCreateLineTool": "AnnotationCreateLine ツールを選択します",
+      "selectCreateStickyTool": "AnnotationCreateSticky ツールを選択します",
+      "selectCreateEllipseTool": "AnnotationCreateEllipse ツールを選択します。",
+      "selectCreateRectangleTool": "AnnotationCreateRectangle ツールを選択します。",
+      "selectCreateRubberStampTool": "AnnotationCreateRubberStamp ツールを選択します",
+      "selectCreateFreeTextTool": "AnnotationCreateFreeText ツールを選択します",
+      "openSignatureModal": "署名モーダルまたはオーバーレイを開く",
+      "selectCreateTextSquigglyTool": "AnnotationCreateTextSquiggly ツールを選択します。",
+      "selectCreateTextHighlightTool": "AnnotationCreateTextHighlight ツールを選択します",
+      "selectCreateTextStrikeoutTool": "AnnotationCreateTextStrikeout ツールを選択します。",
+      "selectCreateTextUnderlineTool": "AnnotationCreateTextUnderline ツールを選択します。",
+      "editKeyboardShorcut": "キーボード ショートカットの編集",
+      "setShortcut": "ショートカットを設定",
+      "editShortcut": "ショートカットの編集",
+      "shortcutAlreadyExists": "上記のキーボード ショートカットは既に存在します。",
+      "close": "ツールチップを閉じる"
     }
   },
   "warning": {
     "deletePage": {
       "deleteTitle": "ページを削除",
-      "deleteMessage": "選択したページを本当に削除してもよろしいですか？この変更は元に戻せません",
+      "deleteMessage": "選択したページを削除してもよろしいですか? 元に戻すことはできません。",
       "deleteLastPageMessage": "ドキュメント内のすべてのページを削除することはできません。"
     },
     "extractPage": {
@@ -606,9 +828,21 @@
       "deleteTitle": "カスタムカラーを削除する",
       "deleteMessage": "選択したカスタムカラーを削除しますか？カラーパレットから削除されます。"
     },
+    "colorPalettePicker": {
+      "deleteTitle": "カスタムカラーを削除する"
+    },
     "multiDeleteAnnotation": {
       "title": "注釈を削除しますか？",
       "message": "削除すると、すべてのコメント、返信、およびグループ化が削除され、元に戻すことはできません。\n\n これらの注釈を削除してもよろしいですか？"
+    },
+    "closeFile": {
+      "title": "ダウンロードせずに閉じますか？",
+      "message": "このドキュメントに変更が加えられましたが、作業内容をダウンロードせずに閉じてもよろしいですか？このアクションを元に戻すことはできません。",
+      "rejectDownloadButton": "ダウンロードせずに閉じる"
+    },
+    "connectToURL": {
+      "title": "セキュリティ警告 ",
+      "message": "このドキュメントは以下に接続しようとしています:\n\n{{- uri}}\n\n この文書を信頼できる場合は、「確認」をクリックして文書を開きます。"
     }
   },
   "shortcut": {
@@ -650,6 +884,7 @@
   "tool": {
     "pan": "パン",
     "select": "選択",
+    "selectAnOption": "選択肢一つを選択してください",
     "Marquee": "拡大鏡",
     "Link": "ページまたはURLをリンク",
     "Standard": "標準",
@@ -659,7 +894,10 @@
     "url": "URL",
     "page": "ページ",
     "enterurl": "リンク先URLを入力してください",
-    "enterpage": "リンク先のページ番号を選択してください",
+    "enterUrlAlt": "URLを入力",
+    "insertLink": "リンクを挿入",
+    "insertLinkOrPage": "リンクまたはページを挿入",
+    "enterpage": "リンク先のページ番号を入力してください",
     "urlLink": "URLリンク"
   },
   "Model3D": {
@@ -669,11 +907,12 @@
     "formatError": "glTF（.glb）形式のみがサポートされています"
   },
   "OpenFile": {
-    "enterUrlOrChooseFile": "URLを入力するか、WebViewerにロードするファイルを選択してください",
-    "enterUrl": "ファイルのURLを入力してください",
+    "enterUrlOrChooseFile": "URLを入力するか、WebViewerに読み込むファイルを選択してください",
+    "enterUrl": "ファイルのURLを入力",
     "extension": "ファイル拡張子",
     "existingFile": "ファイルはすでに開いています",
-    "addTab": "タブを追加"
+    "addTab": "タブを追加",
+    "newTab": "新しいタブ"
   },
   "datePicker": {
     "previousMonth": "前月",
@@ -728,6 +967,10 @@
     "invalidDateTime": "無効な日付/時刻：入力は形式と一致する必要があります"
   },
   "formField": {
+    "indexPanel": {
+      "formFieldList": "フォームフィールドリスト",
+      "notFields": "このドキュメントにはフォームフィールドがありません"
+    },
     "formFieldPopup": {
       "fieldName": "フィールド名",
       "fieldValue": "初期値",
@@ -738,9 +981,25 @@
       "apply": "適用",
       "cancel": "キャンセル",
       "flags": "フィールドフラグ",
+      "fieldSize": "フィールドサイズ",
       "options": "オプション",
+      "properties": "プロパティ",
       "radioGroups": "同じフィールド名のラジオボタンは同じグループに属します。",
       "nameRequired": "フィールド名は必須です",
+      "fieldIndicator": "フィールドインジケーター",
+      "documentFieldIndicator": "ドキュメント フィールド インジケータ",
+      "includeFieldIndicator": "フィールドインジケーターを含める",
+      "indicatorPlaceHolders": {
+        "TextFormField": "ここにテキストを挿入",
+        "CheckBoxFormField": "小切手",
+        "RadioButtonFormField": "塗りつぶし",
+        "ListBoxFormField": "選択する",
+        "ComboBoxFormField": "選択する",
+        "SignatureFormField": {
+          "fullSignature": "こちらにサインして下さい",
+          "initialsSignature": "イニシャルはこちら"
+        }
+      },
       "size": "サイズ",
       "width": "幅",
       "height": "高さ",
@@ -748,6 +1007,14 @@
         "duplicate": "フィールド名はすでに存在します",
         "empty": "フィールド名を空にすることはできません"
       }
+    },
+    "formFieldPanel": {
+      "SignatureFormField": "署名フィールド注釈",
+      "CheckBoxFormField": "チェックボックスフィールド注釈",
+      "RadioButtonFormField": "ラジオボタンフィールド注釈",
+      "ListBoxFormField": "リスト ボックス フィールド注釈",
+      "ComboBoxFormField": "コンボボックスフィールド注釈",
+      "TextFormField": "テキストフィールド注釈"
     },
     "apply": "フィールドを適用",
     "type": "フィールドタイプ",
@@ -757,8 +1024,21 @@
       "checkbox": "チェックボックス",
       "radio": "ラジオボタン",
       "listbox": "リストボックス",
-      "combobox": "コンボボックス"
+      "combobox": "コンボボックス",
+      "button": "ボタン"
     }
+  },
+  "alignmentPopup": {
+    "alignment": "整列",
+    "alignLeft": "左揃え",
+    "alignHorizontalCenter": "水平中央揃え",
+    "alignVerticalCenter": "垂直中央揃え",
+    "alignRight": "右揃え",
+    "alignTop": "上揃え",
+    "alignBottom": "下揃え",
+    "distribute": "配布する",
+    "distributeHorizontal": "水平に分配する",
+    "distributeVertical": "垂直に分配する"
   },
   "digitalSignatureModal": {
     "certification": "認証",
@@ -805,13 +1085,16 @@
     "certifier": "認証者",
     "certified": "認証済",
     "Certified": "認証済",
+    "Certification": "認証",
     "signer": "署名者",
     "signed": "署名済",
     "Signed": "署名済",
+    "Signature": "サイン",
     "by": "by",
     "on": "on",
     "disallowedChange": "許可されていない変更：{{type}}、objnum：{{objnum}}",
     "unsignedSignatureField": "署名されていない署名フィールド：{{fieldName}}",
+    "signatureProperties": "署名のプロパティ",
     "trustVerification": {
       "current": "使用した認証時刻は現在の時刻です",
       "signing": "認証時刻は署名者のコンピューターの時計を基にしています",
@@ -862,6 +1145,10 @@
       "noSignatureFields": "このドキュメントには署名フィールドがありません",
       "certificateDownloadError": "信頼できる証明書をダウンロードしようとしたときにエラーが発生しました",
       "localCertificateError": "ローカル証明書の読み取りにいくつかの問題があります"
+    },
+    "verificationStatus": {
+      "valid": "{{verificationType}} は有効です。",
+      "failed": "{{verificationType}} に失敗しました。"
     }
   },
   "cropPopUp": {
@@ -872,7 +1159,8 @@
     "cropDimensions": "作物の寸法",
     "dimensionInput": {
       "unitOfMeasurement": "単位",
-      "autoTrim": "自動トリム"
+      "autoTrim": "自動トリム",
+      "autoTrimCustom": "カスタム"
     },
     "cropModal": {
       "applyTitle": "作物を適用しますか？",
@@ -881,26 +1169,39 @@
       "cancelMessage": "選択したすべてのページの切り抜きをキャンセルしてもよろしいですか？"
     }
   },
+  "snippingPopUp": {
+    "title": "切り取りツール",
+    "clipboard": "クリップボードにコピー",
+    "download": "ダウンロード",
+    "cropAndRemove": "クロップして削除",
+    "snippingModal": {
+      "applyTitle": "切り取りを適用しますか？",
+      "applyMessage": "このアクションにより指定されたエリアが永久に切り取られ、他のページが削除されます。取り消すことはできません。",
+      "cancelTitle": "切り取りをキャンセルしますか？",
+      "cancelMessage": "切り取りを停止することを本当に確認しますか？"
+    }
+  },
   "textEditingPanel": {
     "paragraph": "段落",
     "text": "文章"
   },
   "redactionPanel": {
     "noMarkedRedactions": "テキスト、地域、ページにマークを付けるか、検索して、編集を開始します。",
-    "redactionSearchPlaceholder": "キーワード検索またはパターンで追加",
+    "redactionSearchPlaceholder": "キーボードまたはパターンによる編集",
     "redactionCounter": "墨消しのマーク",
     "clearMarked": "クリア",
     "redactAllMarked": "すべて編集",
+    "redactionItems": "編集項目",
     "redactionItem": {
-      "regionRedaction": "地域の編集",
+      "regionRedaction": "領域の編集",
       "fullPageRedaction": "全ページの編集",
       "fullVideoFrameRedaction": "ビデオ編集",
-      "audioRedaction": "音声秘匿化",
-      "fullVideoFrameAndAudioRedaction": "ビデオとオーディオのリダクション",
+      "audioRedaction": "音声編集",
+      "fullVideoFrameAndAudioRedaction": "ビデオとオーディオの編集",
       "image": "画像"
     },
     "expand": "拡大",
-    "collapse": "崩壊",
+    "collapse": "折りたたみ",
     "searchResults": "の検索結果",
     "search": {
       "creditCards": "クレジットカード",
@@ -916,7 +1217,256 @@
     "miscValuesHeader": "すべて",
     "emptyPanelMessage": "プロパティを表示する要素を選択してください."
   },
+  "watermarkPanel": {
+    "textWatermark": "テキスト透かし",
+    "uploadImage": "画像をアップロード",
+    "browse": "ブラウズ",
+    "watermarkOptions": "透かしオプション",
+    "watermarks": "透かし"
+  },
+  "portfolio": {
+    "createPDFPortfolio": "PDF ポートフォリオを作成する",
+    "uploadFiles": "ファイルをアップロードする",
+    "uploadFolder": "アップロードフォルダー",
+    "addFiles": "追加ファイル",
+    "addFile": "ファイルの追加",
+    "addFolder": "フォルダーを追加",
+    "createFolder": "フォルダーを作る",
+    "portfolioPanelTitle": "PDFポートフォリオ",
+    "portfolioNewFolder": "新しいフォルダー",
+    "portfolioDocumentTitle": "ドキュメントのタイトル",
+    "portfolioFolderPlaceholder": "フォルダ名",
+    "portfolioFilePlaceholder": "ファイル名",
+    "folderNameAlreadyExists": "フォルダ名はすでに存在します",
+    "fileNameAlreadyExists": "ファイル名はすでに存在します",
+    "openFile": "新しいタブで開く",
+    "fileAlreadyExists": "ファイルが既に存在します",
+    "fileAlreadyExistsMessage": "ファイル「{{fileName}}」はポートフォリオにすでに存在します。",
+    "deletePortfolio": "「{{fileName}}」を削除してもよろしいですか?",
+    "reselect": "再選択"
+  },
   "languageModal": {
     "selectLanguage": "言語を選択する"
+  },
+  "officeEditor": {
+    "bold": "大胆な",
+    "italic": "イタリック",
+    "underline": "下線",
+    "textColor": "テキストの色",
+    "leftAlign": "左揃え",
+    "centerAlign": "中央揃え",
+    "rightAlign": "右揃え",
+    "justify": "正当化する",
+    "lineSpacing": "行と段落の間隔",
+    "lineSpacingMenu": "行間隔",
+    "bulletList": "箇条書きリスト",
+    "numberList": "番号付きリスト",
+    "decreaseIndent": "インデントを減らす",
+    "increaseIndent": "インデントを増やします",
+    "insertLink": "リンクを挿入",
+    "insertImage": "画像を挿入",
+    "image": "画像",
+    "table": "テーブル",
+    "insertRowAbove": "上に行を挿入",
+    "insertRowBelow": "下に行を挿入",
+    "insertColumnRight": "列を右に挿入",
+    "insertColumnLeft": "列を左に挿入",
+    "deleteRow": "行の削除",
+    "deleteColumn": "列の削除",
+    "deleteTable": "テーブルの削除",
+    "deleted": "削除済み:",
+    "added": "追加した： ",
+    "editing": "編集",
+    "editingDescription": "ドキュメントを編集",
+    "pageBreak": "ページ区切り",
+    "reviewing": "レビュー中",
+    "reviewingDescription": "提案をします",
+    "viewOnly": "表示のみ",
+    "viewOnlyDescription": "提案なしで表示",
+    "notSupportedOnMobile": "Office 編集は、モバイル デバイスではサポートされていません。",
+    "previewAllChanges": "すべての変更をプレビュー",
+    "accept": "受け入れる",
+    "reject": "拒否する",
+    "pastingTitle": "貼り付けは利用できません",
+    "pastingMessage": "お使いのブラウザでは貼り付けはサポートされていません。代わりにキーボードショートカットを使用することができます。",
+    "pastingWithoutFormatTitle": "書式なしで貼り付けることはできません",
+    "pastingWithoutFormatMessage": "お使いのブラウザでは、書式なしの貼り付けはサポートされていません。代わりに、キーボードショートカットを使用できます。",
+    "lineSpacingOptions": {
+      "15": "1.5",
+      "115": "1.15",
+      "single": "シングル",
+      "double": "ダブル",
+      "custom": "カスタム"
+    },
+    "numberDropdown": {
+      "6": "数字 ラテンローマ数字 1",
+      "7": "数値 小数点",
+      "8": "数字 ラテンローマ数字 2",
+      "10": "ラテン語 ローマ",
+      "11": "ローマ数字",
+      "dropdownLabel": "番号付けプリセット"
+    },
+    "bulletDropdown": {
+      "0": "弾丸",
+      "1": "弾丸広場",
+      "2": "スクエア弾",
+      "3": "ダイヤモンド",
+      "4": "チェック",
+      "5": "矢印",
+      "dropdownLabel": "弾丸プリセット"
+    },
+    "fontSize": {
+      "dropdownLabel": "フォントサイズ"
+    },
+    "fontStyles": {
+      "dropdownLabel": "フォントスタイル"
+    },
+    "fontFamily": {
+      "dropdownLabel": "フォントファミリー"
+    }
+  },
+  "insertPageModal": {
+    "title": "新しいページを挿入",
+    "tabs": {
+      "blank": "空欄",
+      "upload": "アップロード"
+    },
+    "pagePlacements": {
+      "header": "ページの配置",
+      "above": "ページの上",
+      "below": "ページの下"
+    },
+    "pageLocations": {
+      "header": "ページの場所",
+      "specify": "ページ指定",
+      "specifyLocation": "ページの場所を指定",
+      "amount": "ページ数",
+      "total": "合計",
+      "pages": "ページ"
+    },
+    "pageDimensions": {
+      "header": "ページの寸法",
+      "subHeader": "プリセット",
+      "presets": {
+        "letter": "手紙",
+        "halfLetter": "ハーフレター",
+        "juniorLegal": "ジュニアリーガル",
+        "custom": "カスタム"
+      },
+      "units": "単位"
+    },
+    "browse": "ブラウズファイル",
+    "fileSelected": {
+      "title": "追加するページを選択"
+    },
+    "button": "ページを追加",
+    "selectPages": "追加するページを選択",
+    "page": "ページ",
+    "warning": {
+      "title": "終了 新しいページを挿入しますか?",
+      "message": "終了すると、これまでに行ったすべての選択がキャンセルされます。終了してもよろしいですか？"
+    }
+  },
+  "multiViewer": {
+    "dragAndDrop": "ここにファイルをドラッグ アンド ドロップして比較します",
+    "or": "または",
+    "browse": "ブラウズファイル",
+    "startSync": "同期を開始",
+    "stopSync": "同期を停止",
+    "closeDocument": "ドキュメントを閉じる",
+    "save": "ドキュメントを保存",
+    "comparePanel": {
+      "Find": "ドキュメント内を検索",
+      "changesList": "変更リスト",
+      "change": "変化する",
+      "old": "年",
+      "new": "新しい",
+      "page": "ページ",
+      "textContent": "テキストの内容",
+      "delete": "消去",
+      "insert": "入れる",
+      "edit": "編集"
+    }
+  },
+  "saveModal": {
+    "close": "近い",
+    "saveAs": "名前を付けて保存",
+    "general": "全般的",
+    "fileName": "ファイル名",
+    "fileType": "ファイルの種類",
+    "fileLocation": "ファイルの場所",
+    "browse": "ブラウズ",
+    "pageRange": "ページ範囲",
+    "all": "全て",
+    "currentView": "現在のビュー",
+    "currentPage": "現在のページ",
+    "specifyPage": "ページ指定",
+    "properties": "プロパティ",
+    "includeAnnotation": "注釈を含める",
+    "includeComments": "コメントを含める",
+    "watermark": "透かし",
+    "addWatermark": "透かしを追加",
+    "save": "ファイルを保存",
+    "pageError": "1～の範囲を入力してください",
+    "fileNameCannotBeEmpty": "ファイル名を空にすることはできません"
+  },
+  "filePicker": {
+    "dragAndDrop": "ここにファイルをドラッグ＆ドロップします",
+    "selectFile": "ここでファイルを選択してください",
+    "or": "また"
+  },
+  "stylePanel": {
+    "headings": {
+      "styles": "スタイル",
+      "annotation": "注釈",
+      "annotations": "注釈",
+      "tool": "道具",
+      "textStyles": "テキストスタイル",
+      "currentColor": "現在の色",
+      "customColors": "カスタムカラー",
+      "redactionTextLabel": "テキストラベル",
+      "redactionMarkOutline": "マークのアウトライン",
+      "redactionFill": "編集色",
+      "redactionTextPlaceholder": "テキストラベルを挿入",
+      "contentEdit": "コンテンツ編集"
+    },
+    "lineStyles": {
+      "startLineStyleLabel": "スタートラインスタイル",
+      "middleLineStyleLabel": "中央線のスタイル",
+      "endLineStyleLabel": "終了ラインスタイル"
+    },
+    "addColorToCustom": "カスタムカラーに追加",
+    "noToolSelected": "ツールプロパティを表示するにはツールを選択してください",
+    "noToolStyle": "ツールにはスタイル設定プロパティが含まれていません。",
+    "lineEnding": {
+      "start": {
+        "dropdownLabel": "ライン開始"
+      },
+      "end": {
+        "dropdownLabel": "行末"
+      },
+      "middle": {
+        "dropdownLabel": "中央線"
+      }
+    },
+    "borderStyle": {
+      "dropdownLabel": "国境"
+    }
+  },
+  "signatureListPanel": {
+    "header": "署名リスト",
+    "newSignature": "新しい署名",
+    "newSignatureAndInitial": "新しい署名とイニシャル",
+    "signatureList": {
+      "signature": "サイン",
+      "initials": "イニシャル"
+    }
+  },
+  "rubberStampPanel": {
+    "header": "切手",
+    "standard": "標準切手"
+  },
+  "colorPickerModal": {
+    "modalTitle": "カラーピッカー"
   }
 }
